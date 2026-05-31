@@ -317,12 +317,12 @@ https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/.m3u8
 ====================================================================SPORT_PLUS=====================================================================================
 
 #EXTINF:-1 group-title="SPORT_PLUS"tvg-logo="https://i.ibb.co.com/TqmZsKsb/shareext-logo-Thailand.png",ช่อง Hi Sport (FHD)
-EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXT-X-TARGETDURATION:2
-#EXT-X-MEDIA-SEQUENCE:1
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-http://49.0.64.96:8007/HiSports
+#EXTVLCOPT:http-user-agent=NSPlayer/12.00.9651.000
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.program_number=350997
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/chiken.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.peterealty.com/tv_logos/cctv5.jpg" group-title="SPORT_PLUS",CCTV 5 
 http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
