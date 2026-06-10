@@ -115,10 +115,6 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/in
 https://5bf7b725107e5.streamlock.net/imtv/imtv/playlist.m3u8
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/jaktv.png" group-title="Indonesia Channels" tvg-id="JakTV.id" tvg-name="Jak TV", JakTV
-https://warningfm.github.io/v3/live/str/id/a6e7e966ea54cd3.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/daaitv.png" group-title="Indonesia Channels" tvg-id="DAAITV.id" tvg-name="DAAI TV", DAAI TV
 https://warningfm.github.io/v3/live/str/id/0525ed2747e3161.m3u8
 
@@ -363,228 +359,6 @@ https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/kilas7.m3u8
 #KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
 https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/pbtv.m3u8
 -------------------------------------------------------------------------------------------------------
-#EXTM3U
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/transtv.png",TRANS TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-TRANSTV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/trans%207.png",TRANS 7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-TRANS7/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/cnn_indonesia.png",CNN INDONESIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-CNNINDONESIA/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/tvone.png",TV ONE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-TVONE/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/antv.png",ANTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-ANTV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sctv.png",SCTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-SCTV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/indosiar.png",INDOSIAR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-INDOSIAR/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/MDTV.png",MDTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-NET/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/rtv.png",RTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-RAJAWALITV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/rcti.png",RCTI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-RCTI/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/mnctv.png",MNCTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-MNCTV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/gtv.png",GTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-GLOBALTV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/kompas.png",KOMPAS TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-KOMPASTV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/metro.png",METRO TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-METROTV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/BaliTV.png",BALI TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-BALITV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/tvri.png",TVRI NASIONAL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-TVRI/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/TVRI-Sport-HD.png",TVRI SPORT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-TVRISPORT/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/daaitv.png",DAAI TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-DAAITV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/BTV.png",BTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-BERITASATU/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/EAT%26GO.png",EAT & GO
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-EATNGO/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/!NSERT.pngg",!NSERT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-INSERT/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/Musik_Indonesia.png",MUSIK INDONESIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-MUSIKINDONESIA/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/Knowledge_Channel.png",KNOWLEDGE+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-KNOWLEDGE/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/386-golf%2B.png",GOLF PLUS ID
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-GOLF/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/GameTV.png",GAMING TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-GAMINGTV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIGHTTV.png",FIGHT TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-FIGHTSPORTS/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/SPORTSTV.png",SPORTS TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-SPORTSTV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/cna.png",CNA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-CNA/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/celestial_movies.png",CELESTIAL MOVIES
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-CELESTIALMOVIES/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/trill.png",THRILL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-THRILL/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/CINEMAWORLD.png",CINEMAWORLD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-CINEMAWORLD/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/cctv4.pngg",CCTV 4 ASIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-CCTV4/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/cgtn.png",CGTN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-CGTN/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/CGTNDOCUMENTARY.png",CGTN DOCUMENTARY
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-CGTNDOC/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/NHKWORLDJAPAN.png",NHK WORLD JAPAN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-NHKWORLD/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/9MMVxHp4/ezgif-6457788ed7f0a9.png",NHK WORLD PREMIUM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-NHKPREMIUM/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/d1HyM5GY/arirang.png",ARIRANG
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-ARIRANG/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/4Ng1CfDn/ezgif-6e2eee0f6f5939.png",TVN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-TVN/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/GtS2jh0j/tvnmovies.png",TVN MOVIES
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-TVNMOVIES/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://www.lyngsat-logo.com/logo/tv/kk/kbs_world_kr.png",KBS WORLD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-KBSWORLD/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/bNWrDJ9q/axn-east-asia.png",AXN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-AXN/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://www.lyngsat-logo.com/logo/corp/aa/al_jazeera_qa.png",ALJAZEERA ENGLISH
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-ALJAZEERA/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/jqgmHygJ/ezgif-48a9aa9cda23e1f4.png",ABC AUSTRALIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-ABCAUSTRALIA/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://www.lyngsat-logo.com/logo/tv/dd/deutsche_welle_tv_de.png",DW ENGLISH
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-DWENGLISH/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/tJKzrRn2/ezgif-43179727fc7cce7b.png",EURONEWS.
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-EURONEWS/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/kXFtqMQH/ezgif-67b147fe9146efb9.png",TV5 MONDE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-TV5MONDE/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ff/france24_fr.png",FRANCE 24
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-FRANCE24/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/k4n9VYpw/ezgif-68830eb6e0e4d8f5.png",FASHION TV SOUTHEAST ASIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-FASHIONTV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ww/warner-tv-us.png",WARNER BROS.TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-WARNERTV/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/G2wSHkHK/ezgif-737614d035dfd997.png",HBO
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-HBO/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://www.lyngsat-logo.com/logo/tv/hh/hbo_hits.png",HBO HITS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-HBOHITS/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/PfMF5vhb/ezgif-767c5df2b247daf5.png",HBO FAMILY
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-HBOFAMILY/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://www.lyngsat-logo.com/logo/tv/cc/cinemax-asia-us.png",CINEMAX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-CINEMAX/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/g0ft8QZm/ezgif-7fcea27e75a5aab2.png",CARTOON NETWORK
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-CARTOONNETWORK/playlist.m3u8
-
-#EXTINF:-1 group-title="ID 🇮🇩" tvg-logo="https://i.postimg.cc/zXJGwChc/ezgif-67daec0494f623a7.png",CARTOONITO
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-CARTOONITO/playlist.m3u8
-====================================================================================================
-
 #EXTINF:-1 tvg-id="HBO" group-title="HBO_GROUP" group-logo="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqw6XSmM0nAu3dpNvT_Lja0iVdWYE5pZKi3kptOigluA&s=10",HBO
 #EXTVLCOPT:http-user-agent=NSPlayer/12.00.9651.000
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -625,6 +399,24 @@ http://103.148.44.38:8000/play/a025/index.m3u8
 #KODIPROP:inputstream.ffmpegdirect.program_number=350997
 #KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
 http://103.148.44.38:8000/play/a026/index.m3u8
+====================================================================================================
+
+#EXTINF:-1 tvg-id="HBO" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo.png" group-title="HBO_GROUP2" , HBO
+https://cdnbal1.indihometv.com/atm/DASH/hbo/hbo-avc1_2500000=7-3277707030000000.mpd
+
+#EXTINF:-1 tvg-id="hbohitsasia" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_hits.png" group-title="HBO_GROUPS2", HBO Hits
+https://cdnbal1.indihometv.com/atm/DASH/hbohits/hbohits-avc1_2500000=7-3277707030000000.mpd
+
+#EXTINF:-1 group-title="HBO_GROUP2" tvg-id="hbofamilyasia.sg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_family.png",HBO Family
+https://cdnbal1.indihometv.com/atm/DASH/hbofamily/hbofamily-avc1_2500000=7-3277707030000000.mpd
+
+#EXTINF:-1 group-title="HBO_GROUP2" tvg-id="hbosignatureasia.sg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_sign.png",HBO Signature
+https://cdnbal1.indihometv.com/atm/DASH/hbosignature/hbosignature-avc1_2500000=7-3277707030000000.mpd
+
+#EXTINF:-1 tvg-id="Cinemax.id" tvg-name="Cinemax" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/cinemax.png" group-title="HBO_GROUP2", CINEMAX
+https://cdnbal1.indihometv.com/atm/DASH/cinemax/cinemax-avc1_2500000=7-3277707030000000.mpd
+
+
 ==============================================================================================================
 
 #EXTINF:-1 tvg-id="AXN.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/axn.png" group-title="Movies",AXN
@@ -769,14 +561,6 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/81cb1af2ea4d4842a94f1c83957b4cd2/in
 #KODIPROP:inputstream.adaptive.license_key=b4a7b3289eff493d8700becf2e2a1157:bfbcfcb8137dd565a7f4b5ce7800c1f0
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/dc63bd198bc44193b570e0567ff5b22c/index.mpd
 
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-##KODIPROP:inputstream.adaptive.license_key=94788bc937054090b216dc101e5fa5dc:297c97962ff8d9e99f1da178ea0083ec
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#EXTINF:-1 tvg-url="https://raw.githubusercontent.com/joii89/iptv-joii/refs/heads/main/epg%20Indonesia" group-title="Movies" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/citrabioskop.png",Citra Bioskop
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#https://atemecdnbalancer-voe.sysln.id/live/eds/CitraBioskopHD/mediampd/CitraBioskopHD.mpd
-http://202.169.224.202:8800/udp/239.9.1.15:1234
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/bioskop_indonesia.png" group-title="Movies" tvg-id="BioskopIndonesia.id" tvg-name="Bioskop Indonesia", Bioskop Indonesia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -1185,6 +969,159 @@ https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/浙江教科影视.png" group-title="🇨🇳🇹🇼🇭🇰| Mandarin",浙江教科
 https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+=================================================
+=======================================
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Arjawinangun - Simpang Pasar Junjang 2
+https://cctv-backend.cirebonkab.go.id:6969/memfs/6cb72e32-4f64-4550-8557-a83b9c8e891a_output_0.m3u8?session=FgX3jEgDNwTtrTzQ8MnR6R
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Ciwaringin - Simpang Ciwaringin
+https://cctv-backend.cirebonkab.go.id:6969/memfs/7dbb977f-10ba-44be-8f19-2a9fb8979f66_output_0.m3u8?session=NybKRKaJW3ZPSHNG3THo4d
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Palimanan - Simpang Palimanan
+https://cctv-backend.cirebonkab.go.id:6969/memfs/dd29bcf6-7848-4332-85ac-8ddf65222d6b_output_0.m3u8?session=QsHybFjC3JwtcrfGVjDyz4
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Plumbon - Exit Tol 1
+https://cctv-backend.cirebonkab.go.id:6969/memfs/88f8003a-9c18-4f0a-b4fa-f5b2c4f62143_output_0.m3u8?session=k25eAZnCDQ9ZENF4YKZZsQ
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Weru - Simpang Plered 3
+https://cctv-backend.cirebonkab.go.id:6969/memfs/bcf098d1-1af4-459e-8d4a-8b94a8aed0e4_output_0.m3u8?session=8H6e3JJDh9XV8AdHt2qgeY
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Kedawung - Bundaran Kedawung 2
+https://cctv-backend.cirebonkab.go.id:6969/memfs/a71f2a04-c4c0-4280-9d71-d572d01fe1e6_output_0.m3u8?session=EEBUcUUaKRWPzKjWusLkUf
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Gn. Jati - Jl. Makam Sunan
+https://cctv-backend.cirebonkab.go.id:6969/memfs/3aa30f9f-06c8-41c7-9571-04fc18c7fc7a_output_0.m3u8?session=XYeu9sk45dQXbzGhBPeWU4
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Dukupuntang - Simpang Pasar Kramat 2
+https://cctv-backend.cirebonkab.go.id:6969/memfs/40ea0ae3-26cf-4fa5-8802-48198d143f14_output_0.m3u8?session=8mf8REGU4EaSuxsRRfZQUq
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Sumber - Simpang Kenanga
+https://cctv-backend.cirebonkab.go.id:6969/memfs/f7b1c4fe-8bee-4624-8e91-7765d5640ee8_output_0.m3u8?session=AKfcgP2rd28FGwwxMeZsTE
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Sumber - Simpang Taman PKK
+https://cctv-backend.cirebonkab.go.id:6969/memfs/0d3f6af6-b408-4739-914c-4fe42da1489a_output_0.m3u8?session=GHA8GMQAT4Z7N8wSCmthFd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Sumber - Simpang Pasar Sumber 1
+https://cctv-backend.cirebonkab.go.id:6969/memfs/9e5cb528-a433-468d-9570-be0ec1316120_output_0.m3u8?session=msMso7LjubfLieczigtpz9
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Sumber - Simpang Disdik
+https://cctv-backend.cirebonkab.go.id:6969/memfs/157dd0a9-f3e6-4ea6-afad-f56b645e49ec_output_0.m3u8?session=bP2tJpHMqd9ykRLwjkHVf3
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Sumber - Alun-alun Pataraksa
+https://cctv-backend.cirebonkab.go.id:6969/memfs/4c99a769-bce9-47f4-86ea-683aab391d25_output_0.m3u8?session=M6VAcqefBd756pPYRmw97e
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Sumber - Simpang DPRD
+https://cctv-backend.cirebonkab.go.id:6969/memfs/f8083a29-d000-449a-9cb9-5491afa300f9_output_0.m3u8?session=DtAW4JBggKdFLuVJXjmnyK
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Sumber - Jalan Kantor DPRD
+https://cctv-backend.cirebonkab.go.id:6969/memfs/02201aa3-ae20-41d8-9a8e-bf2f13cad662_output_0.m3u8?session=PPWAUdokF7kHTEokigCjCD
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Sumber - Jalan Kantor Bupati
+https://cctv-backend.cirebonkab.go.id:6969/memfs/880e7686-641a-4517-ad40-e7c6729e6cc8_output_0.m3u8?session=P27ydS9mmEUMSrNi49LQDG
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Sumber - Simpang Babakan Sumber
+https://cctv-backend.cirebonkab.go.id:6969/memfs/d53579b1-67a7-4577-931e-dd491f332d4b_output_0.m3u8?session=m5s4zsCpCdVT5azPVtPMk3
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Astanajapura - Exit Tol 1
+https://cctv-backend.cirebonkab.go.id:6969/memfs/9b4e3bec-18b3-4604-bfb3-62f0cff4750d_output_0.m3u8?session=ExkGNpq4rAJomiXcs7FMLi
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Astanajapura - Exit Tol 2
+https://cctv-backend.cirebonkab.go.id:6969/memfs/30338f79-90e2-4684-ac21-f338c264ad86_output_0.m3u8?session=3v97pC9br5pkuJZ6sNq7yc
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Lemahabang - Pasar Cipeujeuh Wetan
+https://cctv-backend.cirebonkab.go.id:6969/memfs/55cfddc7-66d0-4731-a5f2-359594fee9ca_output_0.m3u8?session=TMBKPRWNU47LUMkTjRcUet
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Gebang - Simpang Pasar Gebang
+https://cctv-backend.cirebonkab.go.id:6969/memfs/1f5811df-8482-4a55-b00e-f4010c78bbee_output_0.m3u8?session=ccRLxSKbvPrYGx3kykdTJj
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Pabuaran - Simpang Pasar Pabuaran
+https://cctv-backend.cirebonkab.go.id:6969/memfs/26d5ad8b-8f22-4002-b31f-387e1cd2cbee_output_0.m3u8?session=jP9dMkaPyrtGKutF2rYuoZ
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Losari - Simpang Terminal Losari 1
+https://cctv-backend.cirebonkab.go.id:6969/memfs/a87b98b8-be04-4415-a0ad-8d5d582c17e4_output_0.m3u8?session=mooKDFVZRV6xLirz7FMcwW
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON", Kec. Losari - Simpang Terminal Losari 2
+https://cctv-backend.cirebonkab.go.id:6969/memfs/a33ab3f4-2d64-42f4-8f8b-733ba260fcc4_output_0.m3u8?session=8YDTksfKmwpgKyPEGTumrY
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",ATCS Simpang Samsat
+https://cctv.cirebonkota.go.id/hls/atcs-simpang-samsat/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",ATCS Simpang Perumnas
+https://cctv.cirebonkota.go.id/hls/atcs-simpang-perumnas/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",ATCS Simpang Kanggraksan
+https://cctv.cirebonkota.go.id/hls/atcs-simpang-kanggraksan/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",ATCS Simpang Terminal
+https://cctv.cirebonkota.go.id/hls/atcs-simpang-terminal/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",Lemah Wungkuk
+https://cctv.cirebonkota.go.id/hls/lemah-wungkuk/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",Satpol PP
+https://cctv.cirebonkota.go.id/hls/satpol-pp/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",ATCS Simpang Krucuk
+https://cctv.cirebonkota.go.id/hls/atcs-simpang-krucuk/index.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",ATCS Simpang Cabang Bayi
+https://cctv.cirebonkota.go.id/hls/atcs-simpang-jabang-bayi/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",ATCS Simpang Asia
+https://cctv.cirebonkota.go.id/hls/atcs-simpang-asia/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",ATCS Simpang Gunung Sari
+https://cctv.cirebonkota.go.id/hls/atcs-simpang-gunung-sari/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",ATCS Simpang Winaon
+https://cctv.cirebonkota.go.id/hls/atcs-simpang-winaon/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",ATCS Simpang Siliwangi
+https://cctv.cirebonkota.go.id/hls/atcs-simpang-siliwangi/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",ATCS Depan Kantor PD
+https://cctv.cirebonkota.go.id/hls/atcs-depan-kantor-pd/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",Sudarsono
+https://cctv.cirebonkota.go.id/hls/sudarsono/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",ATCS Simpang Diklatpri
+https://cctv.cirebonkota.go.id/hls/atcs-simpang-diklatpri/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",Flyover Pegambiran
+#https://cctv.cirebonkota.go.id/hls/flyover-pegambiran/index.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",Jalan Pemuda
+https://cctv.cirebonkota.go.id/hls/jalan-pemuda/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",Depan AT-Taqwa
+https://cctv.cirebonkota.go.id/hls/depan-ataqwa/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",Depan Balaikota
+#https://cctv.cirebonkota.go.id/hls/depan-balaikota/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",Simpang Sunyaragi
+#https://cctv.cirebonkota.go.id/hls/simpang-sunyaragi/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",Kelurahan Kesambi
+#https://cctv.cirebonkota.go.id/hls/kelurahan-kesambi/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CCTV CIREBON",Simpang Drajat
+#https://cctv.cirebonkota.go.id/hls/simpang-drajat/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/之江记录.png" group-title="🇨🇳🇹🇼🇭🇰| Mandarin",之江纪录
 https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/浙江民生休闲.png" group-title="🇨🇳🇹🇼🇭🇰| Mandarin",浙江民生
