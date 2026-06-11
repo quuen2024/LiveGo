@@ -821,41 +821,18 @@ https://andro.2385437.xyz/checklist/androstreamliveexn7.m3u8
 #EXTINF:-1 tvg-id="Exxen 8 HD" tvg-name="Exxen 8 HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/exxen.png" group-title="♦️ SPORTS ♦️ TURKI",Exxen 8 HD
 https://andro.2385437.xyz/checklist/androstreamliveexn8.m3u8
 
+=========================================================================================================
 
+#EXTINF:-1 tvg-id="TVRI.id" tvg-url="https://www.open-epg.com/files/indonesia4.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" group-title="World Cup 2026L",TVRI SPORT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/tvrisport2.m3u8
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" group-title="World Cup 2026L", SportTV 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
 
-
-
-#EXTINF:-1 group-title="♦️ TAIWAN ♦️" tvg-logo="https://www.kds.tw/wp-content/uploads/2025/09/1-480x320.png", ELTA SPORTS 1
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 12) ExoPlayerLib/2.15.1
-https://rakyattv.my.id/donate/stream.php/.m3u8?id=elta-sports-1
-
-#EXTINF:-1 group-title="♦️ TAIWAN ♦️" tvg-logo="https://www.kds.tw/wp-content/uploads/2025/09/2-480x320.png", ELTA SPORTS 2
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 12) ExoPlayerLib/2.15.1
-https://rakyattv.my.id/donate/stream.php/.m3u8?id=elta-sports-2
-
-
-#EXTINF:-1 group-title="♦️ TAIWAN ♦️" tvg-logo="https://www.kds.tw/wp-content/uploads/2025/09/3-480x320.png", ELTA SPORTS 3
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 12) ExoPlayerLib/2.15.1
-https://rakyattv.my.id/donate/stream.php/.m3u8?id=elta-sports-3
-
-#EXTINF:-1 group-title="♦️ TAIWAN ♦️" tvg-logo="https://www.kds.tw/wp-content/uploads/2025/09/bsyd1-480x320.png", SPORTCAST 1
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 12) ExoPlayerLib/2.15.1
-https://rakyattv.my.id/donate/stream.php/.m3u8?id=sportcast-sport-1
-
-#EXTINF:-1 group-title="♦️ TAIWAN ♦️" tvg-logo="https://www.kds.tw/wp-content/uploads/2025/09/bsyd2-480x320.png", SPORTCAST 2
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 12) ExoPlayerLib/2.15.1
-https://rakyattv.my.id/donate/stream.php/.m3u8?id=sportcast-sport-2
-
-#EXTINF:-1 group-title="♦️ TAIWAN ♦️" tvg-logo="https://www.kds.tw/wp-content/uploads/2025/09/bsgq2-480x320.png", SPORTCAST GOLF 2
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 12) ExoPlayerLib/2.15.1
-https://rakyattv.my.id/donate/stream.php/.m3u8?id=sportcast-golf-2
-
-#EXTINF:-1 group-title="♦️ TAIWAN ♦️" tvg-logo="https://www.kds.tw/wp-content/uploads/2025/09/bswq-480x320.png", TENNIS
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 12) ExoPlayerLib/2.15.1
-https://rakyattv.my.id/donate/stream.php/.m3u8?id=tennis-channel
-
-#EXTINF:-1 group-title="♦️ TAIWAN ♦️" tvg-logo="https://www.kds.tw/wp-content/uploads/2025/09/wlty-1-480x320.png", VIDEOLAND SPORTS
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 12) ExoPlayerLib/2.15.1
-https://rakyattv.my.id/donate/stream.php/.m3u8?id=videoland-sports-channel
-
+#EXTINF:-1 tvg-id="beIN Sport 1 HD" tvg-name="beIN Sport 1 HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/beinsports1.png" group-title="World Cup 2026L",TRT 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/trt1.m3u8
