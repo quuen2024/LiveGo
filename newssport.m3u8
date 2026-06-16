@@ -680,12 +680,60 @@ https://andro.2385437.xyz/checklist/androstreamliveexn7.m3u8
 
 #EXTINF:-1 tvg-id="Exxen 8 HD" tvg-name="Exxen 8 HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/exxen.png" group-title="♦️ SPORTS ♦️ TURKI",Exxen 8 HD
 https://andro.2385437.xyz/checklist/androstreamliveexn8.m3u8
+=====================================================================================================
 
+#EXTINF:-1 tvg-name="beIN Sport AR" tvg-logo="https://i.imgur.com/JXfLTDC.jpeg" tvg-id="Bein Sport.ar" group-title="beIN Sports",beIN Sports Arabian 1
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://185.160.192.64:80/mangin15/85784/13682.ts
+
+#EXTINF:-1 tvg-name="beIN Sport AR" tvg-logo="https://i.imgur.com/2lY6dfj.jpeg" tvg-id="Bein Sport.ar" group-title="beIN Sports",beIN Sports Arabian 2
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://185.160.192.64:80/mangin15/85784/13680.ts
+
+#EXTINF:-1 tvg-name="beIN Sport AR" tvg-logo="https://i.imgur.com/uAkQ8jS.jpeg" tvg-id="Bein Sport.ar" group-title="beIN Sports",beIN Sports Arabian 3
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://185.160.192.64:80/mangin15/85784/13678.ts
+
+#EXTINF:-1 tvg-name="beIN Sport AR" tvg-logo="https://i.imgur.com/ZzMYcK0.jpeg" tvg-id="Bein Sport.ar" group-title="beIN Sports",beIN Sports Arabian 4
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://185.160.192.64:80/mangin15/85784/13676.ts
+
+#EXTINF:-1 tvg-name="beIN Sport AR" tvg-logo="https://i.imgur.com/LXyzvv5.jpeg" tvg-id="Bein Sport.ar" group-title="beIN Sports",beIN Sports Arabian 5
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://185.160.192.64:80/mangin15/85784/13674.ts
+
+#EXTINF:-1 tvg-name="beIN Sport AR" tvg-logo="https://i.imgur.com/kIQKIIL.jpeg" tvg-id="Bein Sport.ar" group-title="beIN Sports",beIN Sports Arabian 6
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://185.160.192.64:80/mangin15/85784/13672.ts
+
+#EXTINF:-1 tvg-name="beIN Sport AR" tvg-logo="https://i.imgur.com/uLjRsz2.jpeg" tvg-id="Bein Sport.ar" group-title="beIN Sports",beIN Sports Arabian 7
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://185.160.192.64:80/mangin15/85784/13576.ts
+
+#EXTINF:-1 tvg-name="beIN Sport AR" tvg-logo="https://i.imgur.com/xqSOGPB.jpeg" tvg-id="Bein Sport.ar" group-title="beIN Sports",beIN Sports Arabian 8
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://185.160.192.64:80/mangin15/85784/13688.ts
+
+#EXTINF:-1 tvg-name="beIN Sport AR" tvg-logo="https://i.imgur.com/FslK1uD.jpeg" tvg-id="Bein Sport.ar" group-title="beIN Sports",beIN Sports Arabian 9
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://185.160.192.64:80/mangin15/85784/13686.ts
 =========================================================================================================
 
-#EXTINF:-1 tvg-id="beIN Sport 1 HD" tvg-name="beIN Sport 1 HD" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" group-title="World Cup 2026", TVRI SPORTS Digital
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/tvrisport2.m3u8
+##EXTINF:-1 tvg-name="TVRI Sport Digital (server 2)" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" tvg-id="Digital.id" group-title=" World Cup 2026",TVRI Sport Digital (server 1)
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2 
+#EXTHTTP:{"Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDk4MjUyODgsImV4cCI6MTc0OTgzNjA4OCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxODIuMi40Ny4yNDQifX0.mEa4egyO_TJd6jQSisnDlhhGrGqTg19FN9oTnsikoAs", "X-TOKEN":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDk4MjUyODgsImV4cCI6MTc0OTgzNjA4OCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxODIuMi40Ny4yNDQifX0.cwl3cPdjq3-DSHHho8uVGwAbojwa_Vk7waJHZ6Bxtks"} 
+#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2 
+#https://gooo.blog/opix/genx.m3u8?id=tvrisport&cyev=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDk4MjUyODgsImV4cCI6MTc0OTgzNjA4OCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxODIuMi40Ny4yNDQifX0.mEa4egyO_TJd6jQSisnDlhhGrGqTg19FN9oTnsikoAs 
+http://202.169.224.202:8800/udp/239.1.2.3:1234
+
+#EXTINF:-1 tvg-name="TVRI Sport Digital (server 3)" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" tvg-id="Digital.id" group-title=" World Cup 2026",TVRI Sport Digital (server 2)
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://103.148.44.38:8000/play/a05u/index.m3u8
+
+#EXTINF:-1 tvg-name="TVRI Sport Digital (server 3)" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" tvg-id="Digital.id" group-title=" World Cup 2026",TVRI Sport Digital (server 3)
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://103.148.44.38:8000/play/a03t/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" group-title="World Cup 2026", World Cup Live TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
