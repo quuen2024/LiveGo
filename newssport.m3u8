@@ -111,7 +111,7 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/73b7057c72da4615888a11b02a6cbb3c/in
 #EXT-X-MEDIA-SEQUENCE:1
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
-https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/tvrisport.m3u8
 
 #EXTINF:-1 group-title="Sport_Id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/Champions_Fight.png", CTV FIGHT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
@@ -208,11 +208,11 @@ https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/.m3u8
 ====================================================================SPORT_PLUS=====================================================================================
 
 #EXTINF:-1 group-title="SPORT_PLUS"tvg-logo="https://i.ibb.co.com/TqmZsKsb/shareext-logo-Thailand.png",ช่อง Hi Sport (FHD)
-#EXTVLCOPT:http-user-agent=NSPlayer/12.00.9651.000
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:mimetype=video/mp2t
-#KODIPROP:inputstream.ffmpegdirect.program_number=350997
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#EXTVLCOPT:http-user-agent=TVRIKLIK/7.0 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
 https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/chiken.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.peterealty.com/tv_logos/cctv5.jpg" group-title="SPORT_PLUS",CCTV 5 
@@ -683,6 +683,20 @@ https://andro.2385437.xyz/checklist/androstreamliveexn8.m3u8
 
 =========================================================================================================
 
+#EXTINF:-1 group-title="World Cup 2026" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png", TVRI SPORTS Digital
+#EXTVLCOPT:http-user-agent=TVRIKLIK/7.0 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/tvrisport2.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" group-title="World Cup 2026", World Cup Live TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=549ab7cd35a64bb6bb479ecead04d69d:829799ed534d11fcadeb4b192467e050
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/ch299/default/index.mpd
+
 #EXTINF:-1 tvg-id="beIN Sport 1 HD" tvg-name="beIN Sport 1 HD" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" group-title="World Cup 2026",TRT 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/trt1.m3u8
@@ -742,7 +756,7 @@ https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8?i
 #EXTINF:-1 group-title="World Cup 2026" tvg-id="Aneka" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml"  tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png",RTB Aneka FHD
 https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist.m3u8
 
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://mimipipi22.github.io/logo/antik/jojsport.jpg" group-title="World Cup 2026",JOJ SPORT
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" group-title="World Cup 2026",JOJ SPORT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://webtv.sk/tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
