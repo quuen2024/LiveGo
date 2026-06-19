@@ -113,8 +113,50 @@
   }
 }
 
-#EXTM3U
-#EXT-X-VERSION:5
+12-29 14:56:19.769  i: [ExoPlayer][EventLogger] videoDisabled [eventTime=881.61, mediaPos=878.85, window=0, period=0]
+12-29 14:56:19.782  i: [ExoPlayer][EventLogger] audioDisabled [eventTime=881.62, mediaPos=878.85, window=0, period=0]
+12-29 14:56:19.810  e: [ExoPlayer][EventLogger] playerFailed [eventTime=881.64, mediaPos=878.85, window=0, period=0, errorCode=ERROR_CODE_DECODING_FAILED
+  com.google.android.exoplayer2.r: MediaCodecVideoRenderer error, index=1, format=Format(0, null, null, video/dolby-vision, dvhe.07.06, -1, null, [3840, 2160, 23.976025], [-1, -1]), format_supported=NO_EXCEEDS_CAPABILITIES
+      at com.google.android.exoplayer2.x1.handleMessage(SourceFile:363)
+      at android.os.Handler.dispatchMessage(Handler.java:102)
+      at android.os.Looper.loop(Looper.java:223)
+      at android.os.HandlerThread.run(HandlerThread.java:67)
+  Caused by: com.google.android.exoplayer2.video.h: Decoder failed: OMX.dolby.vision.dvhe.stn.decoder
+      at com.google.android.exoplayer2.video.i.m(Unknown Source:4)
+      at y3.p.render(SourceFile:154)
+      at com.google.android.exoplayer2.x1.p(SourceFile:92)
+      at com.google.android.exoplayer2.x1.handleMessage(SourceFile:221)
+      ... 3 more
+  Caused by: java.lang.IllegalStateException
+      at android.media.MediaCodec.native_dequeueOutputBuffer(Native Method)
+      at android.media.MediaCodec.dequeueOutputBuffer(MediaCodec.java:3452)
+      at y3.y.k(SourceFile:5)
+      at y3.p.drainOutputBuffer(SourceFile:45)
+      at y3.p.render(SourceFile:72)
+      ... 5 more
+]
+12-29 14:56:19.811  e: [Player][ExoPlayer] Playback error detected
+12-29 14:56:19.819  e: An exception occurred: com.google.android.exoplayer2.r: MediaCodecVideoRenderer error, index=1, format=Format(0, null, null, video/dolby-vision, dvhe.07.06, -1, null, [3840, 2160, 23.976025], [-1, -1]), format_supported=NO_EXCEEDS_CAPABILITIES
+12-29 14:56:19.821  i: [Player][Timeline] Handling player error
+12-29 14:56:19.822  e: Stacktrace: com.google.android.exoplayer2.r: MediaCodecVideoRenderer error, index=1, format=Format(0, null, null, video/dolby-vision, dvhe.07.06, -1, null, [3840, 2160, 23.976025], [-1, -1]), format_supported=NO_EXCEEDS_CAPABILITIES
+	at com.google.android.exoplayer2.x1.handleMessage(SourceFile:363)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+Caused by: com.google.android.exoplayer2.video.h: Decoder failed: OMX.dolby.vision.dvhe.stn.decoder
+	at com.google.android.exoplayer2.video.i.m(Unknown Source:4)
+	at y3.p.render(SourceFile:154)
+	at com.google.android.exoplayer2.x1.p(SourceFile:92)
+	at com.google.android.exoplayer2.x1.handleMessage(SourceFile:221)
+	... 3 more
+Caused by: java.lang.IllegalStateException
+	at android.media.MediaCodec.native_dequeueOutputBuffer(Native Method)
+	at android.media.MediaCodec.dequeueOutputBuffer(MediaCodec.java:3452)
+	at y3.y.k(SourceFile:5)
+	at y3.p.drainOutputBuffer(SourceFile:45)
+	at y3.p.render(SourceFile:72)
+	... 5 more
+
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-ALLOW-CACHE:YES
 #EXT-X-TARGETDURATION:11
