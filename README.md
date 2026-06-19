@@ -156,6 +156,79 @@ Caused by: java.lang.IllegalStateException
 	at y3.p.drainOutputBuffer(SourceFile:45)
 	at y3.p.render(SourceFile:72)
 	... 5 more
+// Source - https://stackoverflow.com/a/41286792
+// Posted by dud3rino
+// Retrieved 2026-06-19, License - CC BY-SA 3.0
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="4dp"
+    android:orientation="horizontal">
+
+    <ImageButton android:id="@id/exo_prev"
+      style="@style/ExoMediaButton.Previous"/>
+
+    <ImageButton android:id="@id/exo_rew"
+      style="@style/ExoMediaButton.Rewind"/>
+
+    <ImageButton android:id="@id/exo_play"
+      style="@style/ExoMediaButton.Play"/>
+
+    <ImageButton android:id="@id/exo_pause"
+      style="@style/ExoMediaButton.Pause"/>
+
+    <ImageButton android:id="@id/exo_ffwd"
+      style="@style/ExoMediaButton.FastForward"/>
+
+    <ImageButton android:id="@id/exo_next"
+      style="@style/ExoMediaButton.Next"/>
+
+    // This is the custom button
+    <ImageButton
+        android:id="@+id/exo_fullscreen_button"
+        style="@style/ExoMediaButton"
+        android:src="@drawable/ic_fullscreen"/>
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView android:id="@id/exo_position"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      android:paddingLeft="4dp"
+      android:paddingRight="4dp"
+      android:includeFontPadding="false"
+      android:textColor="#FFBEBEBE"/>
+
+    <SeekBar android:id="@id/exo_progress"
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:layout_height="32dp"
+      android:focusable="false"
+      style="?android:attr/progressBarStyleHorizontal"/>
+
+    <TextView android:id="@id/exo_duration"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      android:paddingLeft="4dp"
+      android:paddingRight="4dp"
+      android:includeFontPadding="false"
+      android:textColor="#FFBEBEBE"/>
+
+  </LinearLayout>
+
+</LinearLayout>
 
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-ALLOW-CACHE:YES
