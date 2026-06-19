@@ -691,17 +691,14 @@ https://andro.2385437.xyz/checklist/androstreamliveexn7.m3u8
 https://andro.2385437.xyz/checklist/androstreamliveexn8.m3u8
 =====================================================================================================
 =========================================================================================================
-#EXTM3U
-#EXT-X-MEDIA-SEQUENCE:0
-#EXT-X-ALLOW-CACHE:YES
-#EXT-X-TARGETDURATION:11
-#EXTINF:10.080000,
+
 #EXTINF:-1 tvg-name="TVRI Sport Digital (server 3)" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" tvg-id="Digital.id" group-title=" World Cup 2026",TVRI Sport Digital (server 1)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#EXT-X-TARGETDURATION:2
-#EXT-X-MEDIA-SEQUENCE:1
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:45
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:8.000000,
 http://103.148.44.38:8000/play/a03t/index.m3u8
 
 
@@ -719,12 +716,8 @@ http://103.148.44.38:8000/play/a05u/index.m3u8
 http://103.148.44.38:8000/play/a03t/index.m3u8
 
 #EXTINF:-1 tvg-name="TVRI Sport Digital (server 3)" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" tvg-id="Digital.id" group-title=" World Cup 2026",TVRI Sport Digital (server 4)
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#EXT-X-TARGETDURATION:2
-#EXT-X-MEDIA-SEQUENCE:1
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/tvri.ts.ts
+#EXTVLCOPT:http-user-agent=TVRIKLIK/7.0 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+http://103.148.44.38:8000/play/a03t/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" group-title="World Cup 2026", World Cup Live TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
