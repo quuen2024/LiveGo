@@ -692,13 +692,9 @@ https://andro.2385437.xyz/checklist/androstreamliveexn8.m3u8
 =====================================================================================================
 =========================================================================================================
 
-#EXTINF:-1 tvg-name="TVRI Sport Digital (server 3)" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" tvg-id="Digital.id" group-title=" World Cup 2026",TVRI Sport Digital (server 1)
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-TARGETDURATION:45
-#EXT-X-MEDIA-SEQUENCE:0
-#EXTINF:8.000000,
+##EXTVLCOPT:http-user-agent=TVRIKLIK/7.0 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=https://klik.tvri.go.id/
+#EXTINF:-1 tvg-id="TVRI.id" tvg-name="" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/FIFA-world-cup-2026.png" group-title="World Cup 2026",TVRI Sport Digital (server 2)
 http://103.148.44.38:8000/play/a03t/index.m3u8
 
 
