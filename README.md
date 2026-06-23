@@ -1,236 +1,75 @@
-# LiveGo
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-{
-  "name": "nsplayer",
-  "version": "0.7.0",
-  "description": "NSPlayer, a player which supports quality list of dash and hls",
-  "keywords": [
-    "nsplayer",
-    "dash.js",
-    "hls.js"
-  ],
-  "license": "MIT",
-  "author": "tangye <tangye@xinpainchang.com> ([https://github.com/tangye1234](https://github.com/quuen2024/LiveGo))",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/types/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "repository": "github:xinpianchang/nsplayer",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
-  "scripts": {
-    "prebuild": "npm run test && npm run clean",
-    "build": "npm run build:types && npm run build:js",
-    "build:js": "rollup -c",
-    "build:types": "tsc --emitDeclarationOnly",
-    "clean": "rimraf dist",
-    "lint": "eslint src/**/* --fix",
-    "pretty": "prettier src/**/* --write",
-    "prerelease": "npm run build",
-    "release": "npx standard-version",
-    "postrelease": "git push --follow-tags",
-    "start": "NODE_ENV=development rollup -c -w --watch.exclude rollup.devserver.js",
-    "pretest": "npm run lint",
-    "test": "jest",
-    "test:cov": "npm run test -- --coverage",
-    "test:watch": "npm run test -- --watch --notify",
-    "types:check": "tsc --noEmit",
-    "types:watch": "npm run types:check -- --watch"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix"
-    ],
-    "*.{json,md,yml}": [
-      "prettier --write"
-    ]
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/plugin-proposal-class-properties": "^7.12.1",
-    "@babel/plugin-proposal-optional-chaining": "^7.12.7",
-    "@babel/plugin-transform-runtime": "^7.12.10",
-    "@babel/plugin-transform-typescript": "^7.12.1",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-typescript": "^7.12.7",
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "@newstudios/common": "^0.2.2",
-    "@rollup/plugin-babel": "^5.3.0",
-    "@rollup/plugin-commonjs": "^21.0.1",
-    "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^13.1.1",
-    "@rollup/plugin-replace": "^3.0.0",
-    "@types/hls.js": "^1.0.0",
-    "@types/jest": "^26.0.20",
-    "@types/rollup-plugin-node-builtins": "^2.1.2",
-    "@typescript-eslint/eslint-plugin": "^5.15.0",
-    "@typescript-eslint/parser": "^5.15.0",
-    "eslint": "^8.5.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jest": "^25.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^4.3.8",
-    "jest": "^26.6.3",
-    "lint-staged": "^10.5.3",
-    "prettier": "^2.5.1",
-    "rimraf": "^3.0.2",
-    "rollup": "^2.70.1",
-    "rollup-plugin-node-builtins": "^2.1.2",
-    "rollup-plugin-serve": "^1.1.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.6.2",
-    "vconsole": "^3.13.0"
-  },
-  "dependencies": {
-    "@babel/runtime": "^7.16.5",
-    "dashjs": "^4.6.0",
-    "delegates": "^1.0.0",
-    "hls.js": "^1.3.5",
-    "shaka-player": "^4.3.5"
-  },
-  "npmName": "nsplayer",
-  "peerDependencies": {
-    "@newstudios/common": "^0.2.2"
-  }
-}
+<html>
+<head>
+    <title>Zona Siaran TV</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.3/shaka-player.ui.min.js' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='assets/styleshaka.css' crossorigin='anonymous'/>
+    <link rel='stylesheet' href='assets/style.css' crossorigin='anonymous'/>
+</head>
 
-12-29 14:56:19.769  i: [ExoPlayer][EventLogger] videoDisabled [eventTime=881.61, mediaPos=878.85, window=0, period=0]
-12-29 14:56:19.782  i: [ExoPlayer][EventLogger] audioDisabled [eventTime=881.62, mediaPos=878.85, window=0, period=0]
-12-29 14:56:19.810  e: [ExoPlayer][EventLogger] playerFailed [eventTime=881.64, mediaPos=878.85, window=0, period=0, errorCode=ERROR_CODE_DECODING_FAILED
-  com.google.android.exoplayer2.r: MediaCodecVideoRenderer error, index=1, format=Format(0, null, null, video/dolby-vision, dvhe.07.06, -1, null, [3840, 2160, 23.976025], [-1, -1]), format_supported=NO_EXCEEDS_CAPABILITIES
-      at com.google.android.exoplayer2.x1.handleMessage(SourceFile:363)
-      at android.os.Handler.dispatchMessage(Handler.java:102)
-      at android.os.Looper.loop(Looper.java:223)
-      at android.os.HandlerThread.run(HandlerThread.java:67)
-  Caused by: com.google.android.exoplayer2.video.h: Decoder failed: OMX.dolby.vision.dvhe.stn.decoder
-      at com.google.android.exoplayer2.video.i.m(Unknown Source:4)
-      at y3.p.render(SourceFile:154)
-      at com.google.android.exoplayer2.x1.p(SourceFile:92)
-      at com.google.android.exoplayer2.x1.handleMessage(SourceFile:221)
-      ... 3 more
-  Caused by: java.lang.IllegalStateException
-      at android.media.MediaCodec.native_dequeueOutputBuffer(Native Method)
-      at android.media.MediaCodec.dequeueOutputBuffer(MediaCodec.java:3452)
-      at y3.y.k(SourceFile:5)
-      at y3.p.drainOutputBuffer(SourceFile:45)
-      at y3.p.render(SourceFile:72)
-      ... 5 more
-]
-12-29 14:56:19.811  e: [Player][ExoPlayer] Playback error detected
-12-29 14:56:19.819  e: An exception occurred: com.google.android.exoplayer2.r: MediaCodecVideoRenderer error, index=1, format=Format(0, null, null, video/dolby-vision, dvhe.07.06, -1, null, [3840, 2160, 23.976025], [-1, -1]), format_supported=NO_EXCEEDS_CAPABILITIES
-12-29 14:56:19.821  i: [Player][Timeline] Handling player error
-12-29 14:56:19.822  e: Stacktrace: com.google.android.exoplayer2.r: MediaCodecVideoRenderer error, index=1, format=Format(0, null, null, video/dolby-vision, dvhe.07.06, -1, null, [3840, 2160, 23.976025], [-1, -1]), format_supported=NO_EXCEEDS_CAPABILITIES
-	at com.google.android.exoplayer2.x1.handleMessage(SourceFile:363)
-	at android.os.Handler.dispatchMessage(Handler.java:102)
-	at android.os.Looper.loop(Looper.java:223)
-	at android.os.HandlerThread.run(HandlerThread.java:67)
-Caused by: com.google.android.exoplayer2.video.h: Decoder failed: OMX.dolby.vision.dvhe.stn.decoder
-	at com.google.android.exoplayer2.video.i.m(Unknown Source:4)
-	at y3.p.render(SourceFile:154)
-	at com.google.android.exoplayer2.x1.p(SourceFile:92)
-	at com.google.android.exoplayer2.x1.handleMessage(SourceFile:221)
-	... 3 more
-Caused by: java.lang.IllegalStateException
-	at android.media.MediaCodec.native_dequeueOutputBuffer(Native Method)
-	at android.media.MediaCodec.dequeueOutputBuffer(MediaCodec.java:3452)
-	at y3.y.k(SourceFile:5)
-	at y3.p.drainOutputBuffer(SourceFile:45)
-	at y3.p.render(SourceFile:72)
-	... 5 more
-// Source - https://stackoverflow.com/a/41286792
-// Posted by dud3rino
-// Retrieved 2026-06-19, License - CC BY-SA 3.0
+<body bgcolor='black' style='margin:0' oncontextmenu='return false' onkeydown='return false' onmousedown='return false'>
 
-  <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:paddingTop="4dp"
-    android:orientation="horizontal">
+    <div id="vidio" data-shaka-player-container style='position:absolute;z-index: -1;top: 0;left: 0;width: 100%; height: 100%;object-fit:fill cover;'>
+        <video autoplay data-shaka-player id='video' poster="img/b.png" style='width:100%;height:100%;'></video>
+        <div class="shaka-controls-container" shown="true">
+            <div class="shaka-scrim-container"></div>
+            <div class="shaka-play-buton-container">
+                <button class="shaka-play-button shaka-no-propagation" ion="pause" aria-abel="Pause"></button>
+		    </div>
+            <div class="shaka-server-side-ad-container"></div>
+            <div class="shaka-bottom-controls shaka-no-propagation">
+                <div class="shaka-ad-controls shaka-hidden">
+                    <div class="shaka-ad-position shaka-hidden">
+                        <span class="shaka-ad-position-span"></span>
+				    </div>
+                    <div class="shaka-ad-counter">
+                        <span class="shaka-ad-counter-span"></span>
+				    </div>
+			    </div>
+                <div class="shaka-controls-button-panel shaka-show-controls-on-mouse-over">
+                    <img src="img/l.png" style='width:15% ;height:15%;' class="shaka-fullscreen-button material-icons-round shaka-tooltip" aria-label="mute">
+			    </div>
+		    </div>
+	    </div>
+    </div>
 
-    <ImageButton android:id="@id/exo_prev"
-      style="@style/ExoMediaButton.Previous"/>
+   <script> 
+  async function init() { 
+    const video = document.getElementById('video'); 
+    const ui = video['ui']; 
+    const controls = ui.getControls(); 
+    const player = controls.getPlayer(); 
+    const sekang = '[https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd](https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newslive.m3u8)'; 
+	 async function init() { 
+    const video = document.getElementById('video'); 
+    const ui = video['ui']; 
+    const controls = ui.getControls(); 
+    const player = controls.getPlayer(); 
+    const sekang = '[https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd](https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newssport.m3u8)'; 
+    player.configure({
+        drm: {
+            clearKeys: {
+                //   'key-id-in-hex': 'key-in-hex',
+                'adca25b8779e4168a0cd710f59f61ccf':'be5383ed3cd8079f4ffe78ad067f476a'
+            }
+        }
+    });
 
-    <ImageButton android:id="@id/exo_rew"
-      style="@style/ExoMediaButton.Rewind"/>
+    window.player = player; 
+    window.ui = ui; 
+    player.addEventListener('error', onPlayerErrorEvent); 
+    controls.addEventListener('error', onUIErrorEvent); 
+    try{await player.load(sekang); 
+    console.log('The video has now been loaded!');} catch (error) {onPlayerError(error);}} 
 
-    <ImageButton android:id="@id/exo_play"
-      style="@style/ExoMediaButton.Play"/>
+    function onPlayerErrorEvent(errorEvent) {onPlayerError(event.detail);} 
+    function onPlayerError(error) {console.error('Error code', error.code, 'object', error);} 
+    function onUIErrorEvent(errorEvent) {onPlayerError(event.detail);} 
+    function initFailed(errorEvent) {console.error('Unable to load the UI library!');} 
+    document.addEventListener('shaka-ui-loaded', init); 
+    document.addEventListener('shaka-ui-load-failed', initFailed); 
 
-    <ImageButton android:id="@id/exo_pause"
-      style="@style/ExoMediaButton.Pause"/>
-
-    <ImageButton android:id="@id/exo_ffwd"
-      style="@style/ExoMediaButton.FastForward"/>
-
-    <ImageButton android:id="@id/exo_next"
-      style="@style/ExoMediaButton.Next"/>
-
-    // This is the custom button
-    <ImageButton
-        android:id="@+id/exo_fullscreen_button"
-        style="@style/ExoMediaButton"
-        android:src="@drawable/ic_fullscreen"/>
-  </LinearLayout>
-
-  <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="4dp"
-    android:gravity="center_vertical"
-    android:orientation="horizontal">
-
-    <TextView android:id="@id/exo_position"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:textSize="14sp"
-      android:textStyle="bold"
-      android:paddingLeft="4dp"
-      android:paddingRight="4dp"
-      android:includeFontPadding="false"
-      android:textColor="#FFBEBEBE"/>
-
-    <SeekBar android:id="@id/exo_progress"
-      android:layout_width="0dp"
-      android:layout_weight="1"
-      android:layout_height="32dp"
-      android:focusable="false"
-      style="?android:attr/progressBarStyleHorizontal"/>
-
-    <TextView android:id="@id/exo_duration"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:textSize="14sp"
-      android:textStyle="bold"
-      android:paddingLeft="4dp"
-      android:paddingRight="4dp"
-      android:includeFontPadding="false"
-      android:textColor="#FFBEBEBE"/>
-
-  </LinearLayout>
-
-</LinearLayout>
-
-#EXT-X-MEDIA-SEQUENCE:0
-#EXT-X-ALLOW-CACHE:YES
-#EXT-X-TARGETDURATION:11
-#EXTINF:10.080000,
+    </script>
+    
+</html>
