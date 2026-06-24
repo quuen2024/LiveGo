@@ -99,11 +99,9 @@ http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
 #EXTINF:-1 group-title="Indonesia Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/jowo_tv.png",JOWO TV
 https://op-group1-swiftservehd-1.dens.tv/h/h208/02.m3u8
 
-#EXTINF:-1 group-title="Indonesia Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/HanacarakaTV.png",Hanacaraka TV
-#EXTVLCOPT:http-referrer=https://www.visionplustv.id/
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0de1f882d278465abdba73a8b4cb2bda:7061f5e1115d6ef504726c3faa8bf146
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd
+#EXTINF:-1 group-title="Indonesia Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/jowo_tv.png",JOWO TV 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://group1-digdaya.dens.tv/h/h208/index.m3u8
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 #EXTVLCOPT:http-referrer=https://visionplus.id
@@ -522,16 +520,6 @@ https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
 https://times-ott-live.akamaized.net/romedynow_wv_drm/index.mpd
 ------------------------------------------------------------------
-#EXTINF:-1 group-title="Comedy" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/4f628a666da552d7a9ea9157e079d56b/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1669078691120_JustforLaughsGags_260x147_copy.png" tvg-id="4f628a666da552d7a9ea9157e079d56b" tvg-name="Just for Laughs Gags" ,Just for Laughs Gags
-https://raw.githubusercontent.com/jrpahe-del/M3U8/refs/heads/main/gag.m3u8
-#EXTINF:-1 group-title="Comedy" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/e3cd976116d5578ab9be32baa738ade2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1653087138529_TCBS_260x147_centered.png" tvg-id="e3cd976116d5578ab9be32baa738ade2" tvg-name="The Carol Burnett Show" ,The Carol Burnett Show
-https://raw.githubusercontent.com/jrpahe-del/M3U8/refs/heads/main/burnett.m3u8
-#EXTINF:-1 group-title="Comedy" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/86c08261fc015a58866210bea63eb8f4/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1723058240057_AF_Logo_EFEFEF_Centered_260x147.png" tvg-id="86c08261fc015a58866210bea63eb8f4" tvg-name="Always Funny Videos" ,Always Funny Videos
-https://raw.githubusercontent.com/jrpahe-del/M3U8/refs/heads/main/Always.m3u8
-#EXTINF:-1 group-title="Comedy" tvg-logo="https://raw.githubusercontent.com/jrpahe-del/Logo/refs/heads/main/failarmy.png" tvg-id="FailArmy.us@US" ,Failarmy International (720p)
-https://failarmy-international-au.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Comedy" tvg-logo="https://provider-static.plex.tv/epg/cms/production/cbce9562-c7a6-460c-9d07-02ab8724bbc5/Light_Logo__Mythical_24_7_1500x1000.png" ,Mythical 24/7
-https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-650b5bb3f4b2d9579946a500.m3u8
 
 ----------------------
      ========= KIDS Channels =====================>
