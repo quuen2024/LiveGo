@@ -40,13 +40,13 @@
     const ui = video['ui']; 
     const controls = ui.getControls(); 
     const player = controls.getPlayer(); 
-    const sekang = '[https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd](https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newslive.m3u8)'; 
+    const sekang = '[https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newslive.m3u8]()'; 
 	 async function init() { 
     const video = document.getElementById('video'); 
     const ui = video['ui']; 
     const controls = ui.getControls(); 
     const player = controls.getPlayer(); 
-    const sekang = '[https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd](https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newssport.m3u8)'; 
+    const sekang = '[https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newssport.m3u8](('; 
     player.configure({
         drm: {
             clearKeys: {
