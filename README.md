@@ -1,75 +1,142 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Zona Siaran TV</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.3/shaka-player.ui.min.js' crossorigin='anonymous'></script>
-    <link rel='stylesheet' href='assets/styleshaka.css' crossorigin='anonymous'/>
-    <link rel='stylesheet' href='assets/style.css' crossorigin='anonymous'/>
-</head>
+![GitHub Pages](https://img.shields.io/github/deployments/nexoscreator/html5-custom-video-player/github-pages.svg?style=flat-square&color=cyan)
+![GitHub Release](https://img.shields.io/github/v/release/nexoscreator/html5-custom-video-player.svg?style=flat-square&color=cyan)
+![GitHub License](https://img.shields.io/github/license/nexoscreator/html5-custom-video-player.svg?style=flat-square&color=cyan)
+![GitHub Code](https://img.shields.io/github/languages/code-size/nexoscreator/html5-custom-video-player.svg?style=flat-square&color=cyan)
 
-<body bgcolor='black' style='margin:0' oncontextmenu='return false' onkeydown='return false' onmousedown='return false'>
+---
 
-    <div id="vidio" data-shaka-player-container style='position:absolute;z-index: -1;top: 0;left: 0;width: 100%; height: 100%;object-fit:fill cover;'>
-        <video autoplay data-shaka-player id='video' poster="img/b.png" style='width:100%;height:100%;'></video>
-        <div class="shaka-controls-container" shown="true">
-            <div class="shaka-scrim-container"></div>
-            <div class="shaka-play-buton-container">
-                <button class="shaka-play-button shaka-no-propagation" ion="pause" aria-abel="Pause"></button>
-		    </div>
-            <div class="shaka-server-side-ad-container"></div>
-            <div class="shaka-bottom-controls shaka-no-propagation">
-                <div class="shaka-ad-controls shaka-hidden">
-                    <div class="shaka-ad-position shaka-hidden">
-                        <span class="shaka-ad-position-span"></span>
-				    </div>
-                    <div class="shaka-ad-counter">
-                        <span class="shaka-ad-counter-span"></span>
-				    </div>
-			    </div>
-                <div class="shaka-controls-button-panel shaka-show-controls-on-mouse-over">
-                    <img src="img/l.png" style='width:15% ;height:15%;' class="shaka-fullscreen-button material-icons-round shaka-tooltip" aria-label="mute">
-			    </div>
-		    </div>
-	    </div>
-    </div>
+## 🎥 Custom HTML5 Video Player
 
-   <script> 
-  async function init() { 
-    const video = document.getElementById('video'); 
-    const ui = video['ui']; 
-    const controls = ui.getControls(); 
-    const player = controls.getPlayer(); 
-    const sekang = '[https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newslive.m3u8]'; 
-	 async function init() { 
-    const video = document.getElementById('video'); 
-    const ui = video['ui']; 
-    const controls = ui.getControls(); 
-    const player = controls.getPlayer(); 
-    const sekang = '[https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newssport.m3u8]'; 
-    player.configure({
-        drm: {
-            clearKeys: {
-                //   'key-id-in-hex': 'key-in-hex',
-                'adca25b8779e4168a0cd710f59f61ccf':'be5383ed3cd8079f4ffe78ad067f476a'
-            }
-        }
-    });
+![image](.github/preview.png)
 
-    window.player = player; 
-    window.ui = ui; 
-    player.addEventListener('error', onPlayerErrorEvent); 
-    controls.addEventListener('error', onUIErrorEvent); 
-    try{await player.load(sekang); 
-    console.log('The video has now been loaded!');} catch (error) {onPlayerError(error);}} 
+> A **lightweight, customizable, and feature-rich** video player built using plain JavaScript and CSS. Includes essential video controls such as **play/pause, volume adjustment, speed control, fullscreen mode, theater mode, mini-player, and more**.
 
-    function onPlayerErrorEvent(errorEvent) {onPlayerError(event.detail);} 
-    function onPlayerError(error) {console.error('Error code', error.code, 'object', error);} 
-    function onUIErrorEvent(errorEvent) {onPlayerError(event.detail);} 
-    function initFailed(errorEvent) {console.error('Unable to load the UI library!');} 
-    document.addEventListener('shaka-ui-loaded', init); 
-    document.addEventListener('shaka-ui-load-failed', initFailed); 
+---
 
-    </script>
-    
-</html>
+## ✨ Features
+
+- **Responsive Design**: Works seamlessly on desktop & mobile devices.
+- **Supports Multiple Video Formats**: (MP4, WebM, Ogg, etc.)
+- **Keyboard Shortcuts**: for easy navigation.
+- **Custom Controls**: Play/Pause, Volume, Speed Control, Fullscreen, Mini Player, Theater Mode.
+- **Loading Indicator**: for better UX.
+- **Touch & Click Support**: for mobile devices.
+- **Customizable**: Easily modify styles & functionality.
+
+---
+
+## 📥 Installation
+
+1. **Include the Video Player in HTML**
+
+   Use the following HTML to include the video player in your page:
+
+   ```html
+   <div
+     class="nex-video-player"
+     data-src="path/to/your/video.mp4"
+     data-title="Video Title"
+   ></div>
+   ```
+
+   > **Note:** Replace `"path/to/your/video.mp4"` with your actual video file URL and update the `"Video Title"`.
+
+2. **Link CSS Styles**
+
+   Include the necessary CSS to style the video player and controls.
+
+   ```html
+   <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/gh/nexoscreator/html5-custom-video-player@v0.5.3/video-player.min.css"
+   />
+   ```
+
+3. **Link the JavaScript**
+
+   Add the JavaScript code cdn link provided below to the functionality of the video player.
+
+   ```html
+   <script
+     src="https://cdn.jsdelivr.net/gh/nexoscreator/html5-custom-video-player@v0.5.3/video-player.min.js"
+     defer
+   ></script>
+   ```
+
+---
+
+## 🎯 Keyboard Shortcuts
+
+This custom video player supports the following keyboard shortcuts to enhance your video playback experience:
+
+| Shortcut Key      | Action              | Description                              |
+| ----------------- | ------------------- | ---------------------------------------- |
+| `F`               | Fullscreen Toggle   | Enter or exit fullscreen mode.           |
+| `→` (Right Arrow) | Forward             | Skip the video forward.                  |
+| `←` (Left Arrow)  | Backward            | Rewind the video.                        |
+| `T`               | Toggle Theater Mode | Switch between normal and theater modes. |
+| `I`               | Mini Player Mode    | Activate or deactivate mini player view. |
+| `M`               | Mute/Unmute         | Mute or unmute the video.                |
+| `+`               | Increase Speed      | Increase playback speed.                 |
+| `-`               | Decrease Speed      | Decrease playback speed.                 |
+
+---
+
+## 🎨 Customization
+
+You can customize the **CSS styles** and **JavaScript functionality** according to your needs.
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/nexoscreator/html5-custom-video-player.git
+   cd html5-custom-video-player
+   ```
+
+2. **Customize CSS:**
+   Edit the `video-player.css` file to change the styles.
+
+3. **Customize JavaScript:**
+   Customize the player controls by modifying `video-player.js`. You can update controls, navigation, or error handling as needed.
+
+---
+
+## 🔗 Useful Links
+
+[![Web Demo](https://img.shields.io/badge/Web-Demo-blue?style=for-the-badge&logo=google-chrome)](https://nexoscreator.github.io/html5-custom-video-player)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-green?style=for-the-badge&logo=github)](https://github.com/nexoscreator/html5-custom-video-player)
+[![YouTube Video](https://img.shields.io/badge/YouTube-Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/rMnDe0iEGRs?si=B2viVesOhHYusbBG)
+
+---
+
+## 🤝 Contributing
+
+We ❤️ contributions! Follow these steps to contribute:
+
+1. 🍴 **Fork** the repository
+2. 🌿 **Create** a new branch (`git checkout -b feature/AmazingFeature`)
+3. 💾 **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
+4. 🚀 **Push** to the branch (`git push origin feature/AmazingFeature`)
+5. 🔃 **Open a Pull Request**
+
+📖 _See our [Contribution Guidelines](CONTRIBUTING.md) for more details._
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact & Community
+
+💬 Join us on **Discord**: [Click Here](https://discord.gg/H7pVc9aUK2)  
+🐦 **Follow on Twitter**: [@nexoscreator](https://twitter.com/nexoscreator)  
+📧 **Email**: [contact@nexoscreator.tech](mailto:contact@nexoscreator.tech)
+
+If you find this project helpful, please consider **starring ⭐ the repository** or **sponsoring 💖 on GitHub**!
+
+<p align="center">
+  Created with ❤️ by <a href="https://github.com/nexoscreator">@nexoscreator</a>
+</p>
