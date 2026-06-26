@@ -7,7 +7,7 @@
 
 ## 🎥 Custom HTML5 Video Player
 
-![image](.github/preview.png)
+![image](https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/drift.jpg)
 
 > A **lightweight, customizable, and feature-rich** video player built using plain JavaScript and CSS. Includes essential video controls such as **play/pause, volume adjustment, speed control, fullscreen mode, theater mode, mini-player, and more**.
 
