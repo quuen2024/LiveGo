@@ -63,7 +63,7 @@
    ```html
    <link
      rel="stylesheet"
-     href="https://cdn.jsdelivr.net/gh/nexoscreator/html5-custom-video-player@v0.5.3/video-player.min.css"
+     href="https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newslive.m3u8"
    />
    ```
 
@@ -73,7 +73,7 @@
 
    ```html
    <script
-     src="https://cdn.jsdelivr.net/gh/nexoscreator/html5-custom-video-player@v0.5.3/video-player.min.js"
+     src="https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newssport.m3u8"
      defer
    ></script>
    ```
@@ -104,7 +104,7 @@ You can customize the **CSS styles** and **JavaScript functionality** according 
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/nexoscreator/html5-custom-video-player.git
+   git clone https://github.com/quuen2024/LiveGo.git
    cd html5-custom-video-player
    ```
 
@@ -146,12 +146,12 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## 📬 Contact & Community
 
-💬 Join us on **Discord**: [Click Here](https://discord.gg/H7pVc9aUK2)  
-🐦 **Follow on Twitter**: [@nexoscreator](https://twitter.com/nexoscreator)  
-📧 **Email**: [contact@nexoscreator.tech](mailto:contact@nexoscreator.tech)
+💬 Join us on **Discord**: [Click Here](https://github.com/quuen2024/LiveGo)  
+🐦 **Follow on Twitter**: [@nexoscreator](https://twitter.com/betok.id)  
+📧 **Email**: [contact@nexoscreator.tech](mailto:contact@betok.id)
 
 If you find this project helpful, please consider **starring ⭐ the repository** or **sponsoring 💖 on GitHub**!
 
 <p align="center">
-  Created with ❤️ by <a href="https://github.com/nexoscreator">@nexoscreator</a>
+  Created with ❤️ by <a href="https://github.com/quuen2024/LiveGo">@quuen2024/LiveGo</a>
 </p>
