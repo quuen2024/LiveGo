@@ -1,8 +1,11 @@
+
+STREAMIX42
+
+
 ![GitHub Pages](https://img.shields.io/github/deployments/nexoscreator/html5-custom-video-player/github-pages.svg?style=flat-square&color=cyan)
 ![GitHub Release](https://img.shields.io/github/v/release/nexoscreator/html5-custom-video-player.svg?style=flat-square&color=cyan)
 ![GitHub License](https://img.shields.io/github/license/nexoscreator/html5-custom-video-player.svg?style=flat-square&color=cyan)
 ![GitHub Code](https://img.shields.io/github/languages/code-size/nexoscreator/html5-custom-video-player.svg?style=flat-square&color=cyan)
-
 ---
 ## Online Useable Tools:
 <a href="https://gmtv.netlify.app" target="_blank"><img src="https://gmtv.netlify.app/img/gmtv.png" style="width:auto; height:60px" alt="GM TV Player"></a>
@@ -63,7 +66,11 @@
    ```html
    <link
      rel="stylesheet"
-     href="https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newslive.m3u8"
+     href="https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/video-player.css"
+	 [
+  "https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newslive.m3u8",
+  "https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newssport.m3u8",
+   ]
    />
    ```
 
@@ -73,7 +80,7 @@
 
    ```html
    <script
-     src="https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newssport.m3u8"
+     src="https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/video-player.js"
      defer
    ></script>
    ```
