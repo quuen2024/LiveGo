@@ -1,83 +1,8 @@
 [
-  "newslive.m3u8",
-  "newssport.m3u8",
-]
----
-
-## 📥 Installation
-
-1. **Include the Video Player in HTML**
-
-   Use the following HTML to include the video player in your page:
-
-   ```html
-   <div
-     class="nex-video-player"
-     data-src="path/to/your/video.mp4"
-     data-title="Video Title"
-   ></div>
-   ```
-
-   > **Note:** Replace `"path/to/your/video.mp4"` with your actual video file URL and update the `"Video Title"`.
-
-2. **Link CSS Styles**
-
-   Include the necessary CSS to style the video player and controls.
-
-   ```html
-   <link
-     rel="stylesheet"
-     href="https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/video-player.css"
-	 [
-  "https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newslive.m3u8",
   "https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newssport.m3u8",
-   ]
-   />
-   ```
+  "https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newslive.m3u8",
+	 "https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/index.html",
+	"https://github.com/quuen2024/m3u8",
+		"https://github.com/quuen2024/api11",
+]
 
-3. **Link the JavaScript**
-
-   Add the JavaScript code cdn link provided below to the functionality of the video player.
-
-   ```html
-   <script
-     src="https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/video-player.js"
-     defer
-   ></script>
-   ```
-
----
-
-## 🎯 Keyboard Shortcuts
-
-This custom video player supports the following keyboard shortcuts to enhance your video playback experience:
-
-| Shortcut Key      | Action              | Description                              |
-| ----------------- | ------------------- | ---------------------------------------- |
-| `F`               | Fullscreen Toggle   | Enter or exit fullscreen mode.           |
-| `→` (Right Arrow) | Forward             | Skip the video forward.                  |
-| `←` (Left Arrow)  | Backward            | Rewind the video.                        |
-| `T`               | Toggle Theater Mode | Switch between normal and theater modes. |
-| `I`               | Mini Player Mode    | Activate or deactivate mini player view. |
-| `M`               | Mute/Unmute         | Mute or unmute the video.                |
-| `+`               | Increase Speed      | Increase playback speed.                 |
-| `-`               | Decrease Speed      | Decrease playback speed.                 |
-
----
-
-## 🎨 Customization
-
-You can customize the **CSS styles** and **JavaScript functionality** according to your needs.
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/quuen2024/LiveGo.git
-   cd html5-custom-video-player
-   ```
-
-2. **Customize CSS:**
-   Edit the `video-player.css` file to change the styles.
-
-3. **Customize JavaScript:**
-   Customize the player controls by modifying `video-player.js`. You can update controls, navigation, or error handling as needed.
