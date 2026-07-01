@@ -141,24 +141,6 @@ pdm-managed pre-commit Checked with mypy Ruff Conventional Commits Pydantic v2 C
      defer
    ></script>
    ```
-
----
-
-## 🎯 Keyboard Shortcuts
-
-This custom video player supports the following keyboard shortcuts to enhance your video playback experience:
-
-| Shortcut Key      | Action              | Description                              |
-| ----------------- | ------------------- | ---------------------------------------- |
-| `F`               | Fullscreen Toggle   | Enter or exit fullscreen mode.           |
-| `→` (Right Arrow) | Forward             | Skip the video forward.                  |
-| `←` (Left Arrow)  | Backward            | Rewind the video.                        |
-| `T`               | Toggle Theater Mode | Switch between normal and theater modes. |
-| `I`               | Mini Player Mode    | Activate or deactivate mini player view. |
-| `M`               | Mute/Unmute         | Mute or unmute the video.                |
-| `+`               | Increase Speed      | Increase playback speed.                 |
-| `-`               | Decrease Speed      | Decrease playback speed.                 |
-
 ---
 
 ## 🎨 Customization
