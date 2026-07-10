@@ -1,8 +1,656 @@
-[
-  "https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newssport.m3u8",
-  "https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newslive.m3u8",
-	 "https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/index.html",
-	"https://github.com/quuen2024/m3u8",
-		"https://github.com/quuen2024/api11",
-]
 
+<script>
+        var fbMeasurementId = "G-TQ8Y5L5TF6";
+
+        // Your web app's Firebase configuration
+        if (fbMeasurementId != '') {
+            var firebaseConfig = {
+                apiKey: "AIzaSyBhnFukigUgWntrMWsOYVauC18_hU5S8AQ",
+                authDomain: "betoktv-7f804.firebaseapp.com",
+                databaseURL: "https://rcti-766db.firebaseio.com",
+                projectId: "betoktv-7f804",
+                storageBucket: "betoktv-7f804.firebasestorage.app",
+                messagingSenderId: "801155115162",
+                appId: "1:801155115162:web:795be71be80a0e6c805723",
+                measurementId: "G-TQ8Y5L5TF6"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+        } else {
+            var firebaseConfig = {
+                apiKey: "AIzaSyBhnFukigUgWntrMWsOYVauC18_hU5S8AQ",
+                authDomain: "betoktv-7f804.firebaseapp.com",
+                databaseURL: "https://github.com/quuen2024/LiveGo",
+                projectId: "betoktv-7f804",
+                storageBucket: "betoktv-7f804.firebasestorage.app",
+                messagingSenderId: "801155115162",
+                appId: "1:801155115162:web:795be71be80a0e6c805723",
+            };
+           
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+        }
+//});
+</script>
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><!-- Google Tag Manager -->
+<script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl +
+            '&gtm_auth=bo364VFvv-awdeFc2S8KmA&gtm_preview=env-2&gtm_cookies_win=x';
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WJNRTJP');
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WJNRTJP&gtm_auth=bo364VFvv-awdeFc2S8KmA&gtm_preview=env-2&gtm_cookies_win=x"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JR2L0ZYPG7"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-TQ8Y5L5TF6');
+</script>
+<!-- End Global site tag (gtag.js) - Google Analytics -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145455301-17"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-145455301-17');
+</script>
+<!-- End Global site tag (gtag.js) - Google Analytics -->
+
+<!-- Tracker GA360 -->
+<script>
+    function toIsoString(date) {
+        var tzo = -date.getTimezoneOffset(),
+            dif = tzo >= 0 ? '+' : '-',
+            pad = function(num) {
+                return (num < 10 ? '0' : '') + num;
+            };
+
+        return pad(date.getDate()) +
+            '/' + pad(date.getMonth() + 1) +
+            '/' + date.getFullYear() +
+            't' + pad(date.getHours()) +
+            ':' + pad(date.getMinutes()) +
+            ':' + pad(date.getSeconds()) +
+            '.' + date.getMilliseconds() +
+            dif + pad(Math.floor(Math.abs(tzo) / 60)) +
+            ':' + pad(Math.abs(tzo) % 60) + ':' + pad(Math.abs(tzo) % 60);
+    }
+
+    function gaTracking(eventName, dataObj) {
+        let userObj = {
+            user_id: "801155115162",
+            date_time: toIsoString(new Date()),
+            client_id: 'G-TQ8Y5L5TF6',
+        };
+
+        let data = {
+            ...dataObj,
+            ...userObj
+        };
+
+        // console.log('clickedTracking', eventName, data);
+
+        // gtag('event', eventName, data);
+        clickPillarMenuForGA('event', eventName, data)
+
+    }
+
+    function menuNavbarTracking(buttonName) {
+        let jsonObj = {
+            event_category: 'menu_navbar_tracking',
+            event_action: 'click_bottom_menu',
+            event_label: buttonName,
+            pillar: 'general'
+        };
+
+        let event_name = 'home_clicked';
+
+        if (buttonName != 'home') {
+            jsonObj.button_name = buttonName;
+            event_name = 'bottom_menu_clicked';
+        }
+
+        gaTracking(event_name, jsonObj);
+    }
+
+    function pillarMenuTracking(buttonName) {
+
+        let pillar = [];
+
+        pillar['home'] = {
+            'name': 'home_menu_button_clicked',
+            'label': 'Home'
+        };
+        pillar['live'] = {
+            'name': 'live_menu_button_clicked',
+            'label': 'live'
+        };
+        pillar['short'] = {
+            'name': 'short_menu_button_clicked',
+            'label': 'short'
+        };
+        pillar['Video+'] = {
+            'name': 'video_button_menu_clicked',
+            'label': 'Video+'
+        };
+        pillar['News+'] = {
+            'name': 'news_menu_button_clicked',
+            'label': 'News+'
+        };
+        pillar['Audio+'] = {
+            'name': 'radio_menu_button_clicked',
+            'label': 'Audio+'
+        };
+        pillar['HOT+'] = {
+            'name': 'hot_menu_button_clicked',
+            'label': 'HOT+'
+        };
+        pillar['Games+'] = {
+            'name': 'games_menu_button_clicked',
+            'label': 'Games+'
+        };
+        pillar['ebook+'] = {
+            'name': 'ebook_menu_button_clicked',
+            'label': 'ebook'
+        };
+        pillar['Shop+'] = {
+            'name': 'shop_menu_button_clicked',
+            'label': 'Shop+'
+        };
+
+        let jsonObj = {
+            event_category: 'pillar_menu',
+            event_action: 'click_pillar_menu',
+            event_label: pillar[buttonName].label,
+            pillar: 'general',
+            origin: buttonName,
+            feature: "pillar"
+        };
+
+        clickPillarMenuForGA(pillar[buttonName].name, jsonObj);
+    }
+
+    function bannerClickedTracking(obj) {
+        let jsonObj = {
+            event_category: 'video_interaction',
+            event_action: 'click_banner_list',
+            event_label: 'header_banner',
+            banner_id: obj.id,
+            banner_name: obj.title,
+            content_name: obj.title,
+            content_id: obj.id,
+            content_type: obj.type,
+            content_category: 'not_available',
+            program_id: 'not_available',
+            program_name: 'not_available',
+            competition_id: 'not_available',
+            competition_name: 'not_available',
+            publisher_id: 'not_available',
+            publisher_name: 'not_available',
+            channel_owner_id: 'not_available',
+            channel_owner: 'not_available',
+            classification_id: 'not_available',
+            classification: 'not_available',
+            pillar: 'video'
+        };
+
+        gaTracking('livepage_banner_clicked', jsonObj);
+    }
+
+    function storyClickedTracking(obj, typeStory) {
+
+        const objConviva = obj.conviva_params;
+
+        let content_id = objConviva.find(o => o.key === 'content_id') ? objConviva.find(o => o.key === 'content_id')
+            .value : 'N/A';
+        let asset_name = objConviva.find(o => o.key === 'asset_name') ? objConviva.find(o => o.key === 'asset_name')
+            .value : 'N/A';
+        let program_id = objConviva.find(o => o.key === 'program_id') ? objConviva.find(o => o.key === 'program_id')
+            .value : 'N/A';
+        let program_name = objConviva.find(o => o.key === 'program_name') ? objConviva.find(o => o.key ===
+            'program_name').value : 'N/A';
+        let classification = objConviva.find(o => o.key === 'classification') ? objConviva.find(o => o.key ===
+            'classification').value : 'N/A';
+        let program_type = objConviva.find(o => o.key === 'program_type') ? objConviva.find(o => o.key ===
+            'program_type').value : 'N/A';
+        let genre = objConviva.find(o => o.key === 'genre') ? objConviva.find(o => o.key === 'genre').value : 'N/A';
+        let content_category = objConviva.find(o => o.key === 'content_category') ? objConviva.find(o => o.key ===
+            'content_category').value : 'N/A';
+        let content_type = objConviva.find(o => o.key === 'content_type') ? objConviva.find(o => o.key ===
+            'content_type').value : 'N/A';
+        let is_login = objConviva.find(o => o.key === 'is_login') ? objConviva.find(o => o.key === 'is_login').value :
+            'N/A';
+        let is_premium = objConviva.find(o => o.key === 'is_premium') ? objConviva.find(o => o.key === 'is_premium')
+            .value : 'N/A';
+        let tv_id = objConviva.find(o => o.key === 'tv_id') ? objConviva.find(o => o.key === 'tv_id').value : 'N/A';
+        let tv_name = objConviva.find(o => o.key === 'tv_name') ? objConviva.find(o => o.key === 'tv_name').value :
+            'N/A';
+        let site = objConviva.find(o => o.key === 'site') ? objConviva.find(o => o.key === 'site').value : 'N/A';
+
+        let jsonObj = {
+            event_category: 'video_interaction',
+            event_action: 'video_click_content_list',
+            event_label: program_name,
+            content_id: content_id,
+            content_name: obj.title,
+            content_type: content_type,
+            content_category: content_category,
+            program_id: program_id,
+            program_name: program_name,
+            classification_id: 'not_available',
+            classification: classification,
+            cluster_id: 'not_available',
+            cluster_name: 'not_available',
+            channel_owner_id: tv_id,
+            channel_owner: tv_name,
+            genre_level_1: genre,
+            genre_level_2: 'not_available',
+            season_number: 'not_available',
+            episode_number: 'not_available',
+            pillar: 'video',
+            is_premium: is_premium,
+        };
+
+        let event_name = 'livepage_short_content_clicked';
+        if (typeStory == 'story') {
+            event_name = 'livepage_story_clicked';
+        }
+
+        gaTracking(event_name, jsonObj);
+    }
+    /**
+     * function untuk handle kategori dan sub kategori
+     * */
+    function categoryTracking(categoryId, categoryName, eventName) {
+        let jsonObj = {
+            event_category: 'video_interaction',
+            event_label: categoryName,
+            pillar: 'general',
+        };
+
+        if (eventName == 'subcategory_click') {
+            jsonObj.subcategory_id = categoryId;
+            jsonObj.subcategory_name = categoryName;
+            jsonObj.event_action = 'click_subcategory_list';
+        } else {
+            jsonObj.category_id = categoryId;
+            jsonObj.category_name = categoryName;
+            jsonObj.event_action = 'click_category_list';
+        }
+
+        gaTracking(eventName, jsonObj);
+    }
+
+    function videoLineupTracking(obj, clusterName) {
+        const objData = JSON.parse(obj);
+
+        if (objData.content_type == "clip") {
+
+        } else if (objData.content_type == "radio" || objData.content_type ==
+            "live_music" || objData.content_type == "live_radio") {} else if (objData.content_type == "program") {
+            programTracking(objData, clusterName);
+        } else if (objData.content_type == "special") {
+            specialTracking(objData, clusterName);
+        } else if (objData.content_type == "live_event") {
+            livepageLiveEventClicked(objData, clusterName);
+        } else if (objData.content_type == "live_tv" || objData.content_type == "catchup" ||
+            objData.content_type == "episode" || objData.content_type == "clips" || objData.content_type ==
+            "missed_event") {
+            contentTracking(objData, clusterName);
+
+        }
+
+    }
+
+    function specialTracking(objData, clusterName) {
+        const objDetail = objData.content_type_detail.detail.data;
+
+        let jsonObj = {
+            event_category: 'video_interaction',
+            event_action: 'video_special_event_banner',
+            event_label: objDetail.title,
+            content_id: objDetail.id,
+            content_name: objDetail.title,
+            content_type: 'video | ' + objData.content_type,
+            cluster_name: clusterName.replaceAll("-", " "),
+            pillar: 'general',
+        };
+
+        gaTracking('homepage_special_event_clicked', jsonObj);
+    }
+
+    function programTracking(objData, clusterName) {
+        const objDetail = objData.content_type_detail.detail.data;
+
+        let jsonObj = {
+            event_category: 'video_interaction',
+            event_action: 'video_click_program_list',
+            event_label: objDetail.title,
+            program_id: objDetail.id,
+            program_name: objDetail.title,
+            classification_id: 'not_available',
+            classification: 'not_available',
+            cluster_id: 'not_available',
+            cluster_name: clusterName.replaceAll("-", " "),
+            channel_owner_id: 'not_available',
+            channel_owner: 'not_available',
+            genre_level_1: 'not_available',
+            genre_level_2: 'not_available',
+            season_number: 'not_available',
+            episode_number: 'not_available',
+            pillar: 'video',
+            is_premium: objDetail.premium == "0" || objDetail.premium == false ? "no" : "yes",
+        };
+
+        gaTracking('livepage_program_clicked', jsonObj);
+    }
+
+    function contentTracking(objData, clusterName) {
+        const obj = objData;
+        const objDetail = objData.content_type_detail.detail.data;
+        var contentType = obj.content_type;
+        if (obj.content_type == 'live_tv') {
+            contentType = 'live tv';
+        } else if (obj.content_type == 'catchup') {
+            contentType = 'catch up tv';
+        } else if (obj.content_type == 'missed_event') {
+            contentType = 'missed event';
+        }
+        let jsonObj = {
+            pillar: 'video',
+            event_category: 'video_interaction',
+            event_action: 'video_click_content_list',
+            event_label: objDetail.title,
+            user_id: "betoktv-7f804",
+            client_id: 'G-TQ8Y5L5TF6',
+            content_id: objDetail.id,
+            content_name: objDetail.title,
+            content_type: `video | ${contentType}`,
+            content_category: (obj.content_type == 'live_event' || obj.content_type == 'live_tv' ? 'live' : 'VoD'),
+            program_id: objDetail.id,
+            program_name: objDetail.title,
+            classification_id: 'N/A',
+            classification: 'N/A',
+            cluster_id: 'N/A',
+            cluster_name: clusterName.replaceAll("-", " "),
+            channel_owner_id: 'N/A',
+            channel_owner: 'N/A',
+            genre_level_1: 'N/A',
+            genre_level_2: 'N/A',
+            season_number: 'N/A',
+            episode_number: 'N/A',
+            date_time: toIsoString(new Date()),
+        };
+
+        gaTracking('livepage_content_clicked', jsonObj);
+    }
+
+    function channelTracking(id, channel, eventName) {
+
+        let jsonObj = {
+            event_category: 'video_interaction',
+            event_action: 'click_channel_list',
+            event_label: channel,
+            pillar: 'video',
+            content_id: id,
+            content_name: channel,
+            content_type: 'video | live tv',
+            content_category: 'live',
+            channel_owner_id: id,
+            channel_owner: channel,
+        };
+        gaTracking(eventName, jsonObj);
+    }
+
+    function searchTracking() {
+        let jsonObj = {
+            event_category: 'menu_navbar_tracking',
+            event_action: 'click_go_to_search',
+            event_label: 'search_bar',
+            pillar: 'general'
+        };
+
+        gaTracking('search_clicked', jsonObj);
+    }
+
+    function channelButtonPlaying(id, title) {
+        let jsonObj = {
+            user_id: "betoktv-7f804",
+            client_id: 'G-TQ8Y5L5TF6',
+            content_id: id,
+            content_name: title,
+            content_type: 'video | live tv',
+            content_category: 'live',
+            channel_owner_id: id,
+            channel_owner: title,
+            pillar: "video",
+            date_time: toIsoString(new Date()),
+            event_category: "video_interaction",
+            event_action: "video_click_content_list",
+            event_label: title
+        };
+        gaTracking('livetv_channels_clicked', jsonObj);
+    }
+
+    function channelButtonShareTv(id, title, channel_id, channel_name) {
+        let jsonObj = {
+            pillar: 'video',
+            user_id: "betoktv-7f804",
+            client_id: 'G-TQ8Y5L5TF6',
+            content_id: id,
+            content_name: title,
+            content_type: 'video | live tv',
+            content_category: 'n/a',
+            program_id: 'n/a',
+            program_name: 'n/a',
+            channel_owner_id: channel_id,
+            channel_owner: channel_name,
+            pillar: "video",
+            date_time: toIsoString(new Date()),
+            event_category: "video_interaction",
+            event_action: "share_livetv_content_clicked",
+            event_label: title
+        };
+        gaTracking('livedetail_epg_share_clicked', jsonObj);
+    }
+
+    function clickProgramCatchup(id, title, channel_id, channel_name) {
+        let jsonObj = {
+            user_id: "betoktv-7f804",
+            client_id: 'G-TQ8Y5L5TF6',
+            content_id: id,
+            content_name: title,
+            content_type: 'video | live tv',
+            content_category: "live",
+            channel_owner_id: channel_id,
+            channel_owner: channel_name,
+            pillar: "video",
+            date_time: toIsoString(new Date())
+        };
+        // gaTracking('livetv_catchup_clicked', jsonObj); //
+    }
+
+    function clickContentList(id, title, channel_id, channel_name, type) {
+        var content_tp = 'video | catch up tv'
+        if (type == 'live_tv') {
+            content_tp = 'video | live tv';
+        }
+
+        let jsonObj = {
+            pillar: "video",
+            user_id: "betoktv-7f804",
+            client_id: 'G-TQ8Y5L5TF6',
+            content_id: channel_id,
+            content_name: channel_name,
+            content_type: content_tp,
+            content_category: "live",
+            program_id: id,
+            program_name: title,
+            channel_owner_id: channel_id,
+            channel_owner: channel_name,
+            date_time: toIsoString(new Date()),
+            event_category: "video_interaction",
+            event_action: "video_click_content_list",
+            event_label: title
+        };
+        gaTracking('tvdetail_schedules_content_clicked', jsonObj);
+    }
+
+    function clickTvDetailSchedulesClicked(date) {
+        let jsonObj = {
+            pillar: "video",
+            user_id: "betoktv-7f804",
+            client_id: 'G-TQ8Y5L5TF6',
+            date_time: toIsoString(new Date()),
+            date: date,
+            event_category: "video_interaction",
+            event_action: "video_click_schedules",
+            event_label: date
+        };
+        gaTracking('tvdetail_schedules_clicked', jsonObj);
+    }
+
+    function detailMenuClicked(buttonName, detailPage) {
+        let jsonObj = {
+            pillar: "video",
+            user_id: "betoktv-7f804",
+            client_id: 'G-TQ8Y5L5TF6',
+            date_time: toIsoString(new Date()),
+            button_name: buttonName,
+            detail_page: detailPage,
+            event_category: "video_interaction",
+            event_action: "detail_event_clicked",
+            event_label: buttonName
+        }
+        gaTracking('detail_menu_clicked', jsonObj);
+    }
+
+    function livedetailShareClicked(idContent, nameContent, contentType, channelOwnerid = 'n/a', channelOwner = 'n/a') {
+        if (contentType == "live-event") {
+            contentType = 'event';
+        }
+        let jsonObj = {
+            content_type: 'video | live ' + contentType,
+            user_id: "betoktv-7f804",
+            client_id: 'G-TQ8Y5L5TF6',
+            content_id: idContent,
+            content_name: nameContent,
+            content_category: "live",
+            channel_owner_id: channelOwnerid,
+            channel_owner: channelOwner,
+            pillar: "video",
+            is_premium: "no",
+            date_time: toIsoString(new Date()),
+            detail_page: 'live ' + contentType,
+            event_category: "video_interaction",
+            event_action: "video_click_share_content",
+            event_label: nameContent
+        }
+        gaTracking('livedetail_share_clicked', jsonObj);
+    }
+
+    function detailClickOtherList(idContent, nameContent, channelOwnerid = 'n/a', channelOwner = 'n/a', contentType,
+        detailPage) {
+        let jsonObj = {
+            pillar: "video",
+            user_id: "betoktv-7f804",
+            client_id: 'G-TQ8Y5L5TF6',
+            content_id: idContent,
+            content_name: nameContent,
+            content_type: contentType,
+            content_category: "live",
+            cluster_id: "n/a",
+            cluster_name: "Others",
+            channel_owner_id: channelOwnerid,
+            channel_owner: channelOwner,
+            date_time: toIsoString(new Date()),
+            // detail_page: "https://github.com/quuen2024/LiveGo",
+            detail_page: detailPage,
+            event_category: "video_interaction",
+            event_action: "video_click_content_list",
+            event_label: nameContent
+        }
+        gaTracking('detail_click_other_list', jsonObj);
+    }
+
+    function livepageLiveEventClicked(objDetail, clusterName) {
+        var data = objDetail.content_type_detail.detail.data;
+
+        let jsonObj = {
+            pillar: "video",
+            user_id: "betoktv-7f804",
+            client_id: 'G-TQ8Y5L5TF6',
+            content_id: data.id,
+            content_name: data.title,
+            content_type: "video | live event",
+            content_category: (objDetail.content_type == 'live_event' || objDetail.content_type == 'live_tv' ?
+                'live' :
+                'VoD'),
+            program_id: "n/a",
+            program_name: "n/a",
+            classification_id: "n/a",
+            classification: "n/a",
+            cluster_id: "n/a",
+            cluster_name: clusterName.replaceAll("-", " "),
+            channel_owner_id: "n/a",
+            channel_owner: "n/a",
+            genre_level_1: "n/a",
+            genre_level_2: "n/a",
+            is_premium: "no",
+            event_category: "video_interaction",
+            event_action: "video_click_content_list",
+            event_label: data.title,
+            date_time: toIsoString(new Date())
+        }
+        gaTracking('livepage_live_event_clicked', jsonObj);
+
+    }
+</script>
+<script>
+    var usercToken;
+    var specificCookieValue;
+    var dataUserC;
+
+    function getCookie(cookieName) {
+        var name = cookieName + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var cookieArray = decodedCookie.split(';');
+        for(var i = 0; i <cookieArray.length; i++) {
+            var cookie = cookieArray[i];
+            while (cookie.charAt(0) == ' ') {
+                cookie = cookie.substring(1);
+            }
+            if (cookie.indexOf(name) == 0) {
+                return cookie.substring(name.length, cookie.length);
+            }
+        }
