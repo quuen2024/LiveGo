@@ -44,10 +44,6 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/in
 #EXTINF:-1 tvg-id="TransTV.id" tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/indonesia.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/transtv.png" group-title="Indonesia Channels",TransTV HD
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
 
-#EXTINF:-1 tvg-id="TransTV-6" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/transtv.png" group-title="Indonesia Channels",TRANSTV HD
-#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://video.detik.com/transtv/smil:transtv.smil/chunklist_w2114898498_b744100_sleng.m3u8
-
 #EXTINF:-1 tvg-id="TransTV-6" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/transtv.png" group-title="Indonesia Channels",TRANSTV MY
 #EXTVLCOPT:http-user-agent=NSPlayer/12.00.9651.000
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -64,10 +60,6 @@ https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/transtv.m3u8
 #KODIPROP:inputstream.adaptive.license_key=78477d2156944b7cb35762a47973aa9c:31805b3c0d03080f9ed33411258e5baf
 #EXTINF:-1 tvg-id="Trans7.id" tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/indonesia.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/trans7.png" group-title="Indonesia Channels",Trans7 HD
 https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
-
-#EXTINF:-1 tvg-id="Trans7" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/trans7.png" group-title="Indonesia Channels",TRANS7 HD
-#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://video.detik.com/trans7/smil:trans7.smil/chunklist_w1688919853_b744100_sleng.m3u8
 
 #EXTINF:-1 tvg-id="Trans7" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/trans7.png" group-title="Indonesia Channels",TRANS7 CBM
 #EXTVLCOPT:http-user-agent=NSPlayer/12.00.9651.000
@@ -123,6 +115,13 @@ https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/antev.m3u8
 #KODIPROP:inputstream.adaptive.license_key=22bd0016090143f795a275629a6e7a0a:cae11accebe3ca7535141d35f4d41a1d
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2f1c4190dcf045c9aafc447d54ef7c91/index.mpd
 
+#EXTINF:-1 tvg-id="Moji.id" group-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/moji.png" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/moji.png" group-title="Indonesia Channels", MOJI Live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/moji.m3u8
 
 #EXTINF:-1 group-title="Indonesia Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/jowo_tv.png",JOWO TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -350,6 +349,13 @@ https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
 #EXTINF:-1 tvg-id="DMTVMalang.id@SD" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/saliratv.png" group-title="BERITA_Channels",SALIRA TV
 https://live.salira.tv/p/3870/hybrid/play.m3u8
 ====================================================================================================
+#EXTINF:-1 tvg-id="HBO" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo.png" group-title="HBO_GROUP" , HBO 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/HBO.m3u8
 
 -------------------------------------------------------------------------------------------------------
 
@@ -362,6 +368,15 @@ https://live.salira.tv/p/3870/hybrid/play.m3u8
 https://cdnbal1.indihometv.com/atm/DASH/hbo/hbo-avc1_2500000=7-3277707030000000.mpd
 
 
+#EXTINF:-1 tvg-id="HBO" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_family.png" group-title="HBO_GROUP" , HBO Family
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/HBO%20Family.m3u8
+
+
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.indihometv.com
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -370,6 +385,13 @@ https://cdnbal1.indihometv.com/atm/DASH/hbo/hbo-avc1_2500000=7-3277707030000000.
 #EXTINF:-1 group-title="HBO_GROUP" tvg-id="hbofamilyasia.sg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_family.png",HBO Family 2
 https://cdnbal1.indihometv.com/atm/DASH/hbofamily/hbofamily-avc1_2500000=7-3277707030000000.mpd
 
+#EXTINF:-1 tvg-id="hbohitsasia" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_hits.png" group-title="HBO_GROUP", HBO Hits
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/HBO%20Hits.m3u8
 
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.indihometv.com
@@ -379,6 +401,13 @@ https://cdnbal1.indihometv.com/atm/DASH/hbofamily/hbofamily-avc1_2500000=7-32777
 #EXTINF:-1 tvg-id="hbohitsasia" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_hits.png" group-title="HBO_GROUP", HBO Hits 2
 https://cdnbal1.indihometv.com/atm/DASH/hbohits/hbohits-avc1_2500000=7-3277707030000000.mpd
 
+#EXTINF:-1 group-title="HBO_GROUP" tvg-id="hbosignatureasia.sg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_sign.png",HBO Signature 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/HBOSignature.m3u8
 
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.indihometv.com
