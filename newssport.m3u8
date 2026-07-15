@@ -95,10 +95,10 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/ind
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/sport2.png" group-title="Sport_Id",SpoTV 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1539f043249e413d91906036f305831e:671e24fd8d234c7f38d85055815f902a
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 
 https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
@@ -147,12 +147,6 @@ https://tvratu.my.id/vid/index.mpd?id=6685
 #KODIPROP:inputstream.adaptive.license_key=https://tvratu.my.id/vid/index.mpd?id=6686
 https://tvratu.my.id/vid/index.mpd?id=6686
 
-#EXTINF:-1 group-title="Sport_Id" tvg-logo="https://thumbor.prod.vidiocdn.com/hn1fGbtcr9tbHEUS4C04vZNwFRc=/120x120/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/21178/9da981.png",Voli TV 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://tvratu.my.id/vid/index.mpd?id=21178
-https://pidio.becek.workers.dev/21178.mpd
-https://ratuvidio.adptv.workers.dev/index.mpd?id=21178&type=dash
 
 #EXTINF:-1 group-title="Sport_Id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/Champions_Fight.png", CTV FIGHT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
@@ -218,6 +212,87 @@ https://dash2.antik.sk/stream/nvidia_rtvs_sport/playlist_cenc.mpd
 #EXTVLCOPT:http-referrer=https://www.panentv.com/
 #EXTVLCOPT:http-origin=https://www.panentv.com/
 https://cdn1.panensport.org/channel/500298550/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/vnl.png" group-title="🏐 VOLLEYBALL", VNL 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/vnl1.m3u8
+\
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/vnl.png" group-title="🏐 VOLLEYBALL", VNL2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/vnl2.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/vnl.png" group-title="🏐 VOLLEYBALL", VNL3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/vnl3.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/vnl.png" group-title="🏐 VOLLEYBALL", VNL4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/vnl4.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/vnl.png" group-title="🏐 VOLLEYBALL", VNL5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/vnl7.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/vnl.png" group-title="🏐 VOLLEYBALL", VNL6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/vnl6.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/vnl.png" group-title="🏐 VOLLEYBALL", VNL7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/vnl5.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/vnl.png" group-title="🏐 VOLLEYBALL", VNL8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://cdn.skygo.mn/live/disk1/ONTV/DASH-FTA/ONTV.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/vnl.png" group-title="🏐 VOLLEYBALL", VNL9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://andro.2385437.xyz/checklist/androstreamlivetb4.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/vnl.png" group-title="🏐 VOLLEYBALL", VNL10
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+https://andro.2385437.xyz/checklist/androstreamlivetb.m3u8
+
 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/omanspt.png" group-title="🏐 VOLLEYBALL",Oman Sport
@@ -455,32 +530,6 @@ https://andro.2385437.xyz/checklist/androstreamlivetb7.m3u8
 #EXTINF:-1 tvg-id="Tabii 8 HD" tvg-name="Tabii 8 HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/tabiispor.png" group-title="♦️ SPORTS ♦️ TURKI",Tabii 8 HD
 https://andro.2385437.xyz/checklist/androstreamlivetb8.m3u8
 
-#EXTINF:-1 tvg-id="Exxen HD" tvg-name="Exxen HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/exxen.png" group-title="♦️ SPORTS ♦️ TURKI",Exxen HD
-https://andro.2385437.xyz/checklist/androstreamliveexn.m3u8
-
-#EXTINF:-1 tvg-id="Exxen 1 HD" tvg-name="Exxen 1 HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/exxen.png" group-title="♦️ SPORTS ♦️ TURKI",Exxen 1 HD
-https://andro.2385437.xyz/checklist/androstreamliveexn1.m3u8
-
-#EXTINF:-1 tvg-id="Exxen 2 HD" tvg-name="Exxen 2 HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/exxen.png" group-title="♦️ SPORTS ♦️ TURKI",Exxen 2 HD
-https://andro.2385437.xyz/checklist/androstreamliveexn2.m3u8
-
-#EXTINF:-1 tvg-id="Exxen 3 HD" tvg-name="Exxen 3 HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/exxen.png" group-title="♦️ SPORTS ♦️ TURKI",Exxen 3 HD
-https://andro.2385437.xyz/checklist/androstreamliveexn3.m3u8
-
-#EXTINF:-1 tvg-id="Exxen 4 HD" tvg-name="Exxen 4 HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/exxen.png" group-title="♦️ SPORTS ♦️ TURKI",Exxen 4 HD
-https://andro.2385437.xyz/checklist/androstreamliveexn4.m3u8
-
-#EXTINF:-1 tvg-id="Exxen 5 HD" tvg-name="Exxen 5 HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/exxen.png" group-title="♦️ SPORTS ♦️ TURKI",Exxen 5 HD
-https://andro.2385437.xyz/checklist/androstreamliveexn5.m3u8
-
-#EXTINF:-1 tvg-id="Exxen 6 HD" tvg-name="Exxen 6 HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/exxen.png" group-title="♦️ SPORTS ♦️ TURKI",Exxen 6 HD
-https://andro.2385437.xyz/checklist/androstreamliveexn6.m3u8
-
-#EXTINF:-1 tvg-id="Exxen 7 HD" tvg-name="Exxen 7 HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/exxen.png" group-title="♦️ SPORTS ♦️ TURKI",Exxen 7 HD
-https://andro.2385437.xyz/checklist/androstreamliveexn7.m3u8
-
-#EXTINF:-1 tvg-id="Exxen 8 HD" tvg-name="Exxen 8 HD" tvg-logo="https://www.sporcafe-055e6db320.xyz/assets/images/channels/exxen.png" group-title="♦️ SPORTS ♦️ TURKI",Exxen 8 HD
-https://andro.2385437.xyz/checklist/androstreamliveexn8.m3u8
 =====================================================================================================
 =========================================================================================================
 
@@ -493,14 +542,6 @@ https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQID-lg2H4PeSDC44affkJIGy6YBioiHxHPJYeP6JgXtig4kzBd6ffa4Y8&s=10" group-title="World Cup 2026", IRIB 4K
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
 https://live-aburayhan1106.telewebion.ir/ek/faratar/live/108050p/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQID-lg2H4PeSDC44affkJIGy6YBioiHxHPJYeP6JgXtig4kzBd6ffa4Y8&s=10" group-title="World Cup 2026", NAZIVO SPORT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
-#EXT-X-TARGETDURATION:2
-#EXT-X-MEDIA-SEQUENCE:1
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-https://dash2.antik.sk/stream/nvidia_rtvs_sport/playlist_cenc.mpd
 
 
 #EXTINF:-1 tvg-id="beIN Sport 1 HD" tvg-name="beIN Sport 1 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQID-lg2H4PeSDC44affkJIGy6YBioiHxHPJYeP6JgXtig4kzBd6ffa4Y8&s=10" group-title="World Cup 2026",MAHZUNA SPORT
@@ -530,9 +571,6 @@ https://cdn.skygo.mn/live/disk1/MNBSport/DASH-FTA/MNBSport.mpd
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQID-lg2H4PeSDC44affkJIGy6YBioiHxHPJYeP6JgXtig4kzBd6ffa4Y8&s=10" group-title="World Cup 2026", Arena Sport 1 Premium HD 
 http://178.253.194.79:10001
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQID-lg2H4PeSDC44affkJIGy6YBioiHxHPJYeP6JgXtig4kzBd6ffa4Y8&s=10" group-title="World Cup 2026",FR | BEIN SPORTS 1
-http://185.160.192.64:80/mangin15/85784/14170
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQID-lg2H4PeSDC44affkJIGy6YBioiHxHPJYeP6JgXtig4kzBd6ffa4Y8&s=10" group-title="World Cup 2026", SULD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
