@@ -19,48 +19,52 @@ https://iptv.prosto.tv/ch118/tracks-v2a1/mono.m3u8?live=1&ip=125.167.50.154&e=17
 
 =================================================================================================================================
 
-
-#EXTINF:-1 group-title="Sport_Id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sportstars.png", SPORTSTAR 1
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="Sportstars HD - [Channel 421].id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sportstars.png" group-title="Sport_Id",SPORTSTAR 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=39c4dc6704cf4ceea2fd4863b88d8a7d:4e9d7954c2ff46759289da4fc9f018ea
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_key=39c4dc6704cf4ceea2fd4863b88d8a7d:4e9d7954c2ff46759289da4fc9f018ea
 https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
 
-#EXTINF:-1 group-title="Sport_Id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sportstars.png",SPORTSTAR 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=911e72adf36946afbdbb4f80782a8394:08aec548a851ba64b7172ae7f05cb91c
-#EXTVLCOPT:http-referrer=https://visionplus.id/
+#EXTINF:-1 tvg-id="Sportstars HD - [Channel 421].id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sportstars.png" group-title="Sport_Id",SPORTSTAR 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_key=911e72adf36946afbdbb4f80782a8394:08aec548a851ba64b7172ae7f05cb91c
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
 
 
-#EXTINF:-1 tvg-id="Sportstars3.id@SD" group-title="Sport_Id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sportstars.png",Sportstars 3
+#EXTINF:-1 tvg-id="Sportstars HD - [Channel 421].id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sportstars.png" group-title="Sport_Id",SPORTSTAR 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/Vision/drm.license?id=114
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
 
-#EXTINF:-1 tvg-id="Sportstars.3.id" tvg-name="Sportstars 3" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sportstars.png" group-title="Sport_Id",SPORTSTARS 3 B
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="Sportstars HD - [Channel 421].id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sportstars.png" group-title="Sport_Id",SPORTSTAR 3B
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_key=ed1723eb360145ccafa1b466130186da:c7c4171e98de14c23be427f6ab16ef72
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/eb98aca0a1be41f7b9c05dac051a250e/index.mpd
 
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sportstars.png" group-title="Sport_Id", SPORTSTAR 4
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://visionplus.id/
+#EXTINF:-1 tvg-id="Sportstars HD - [Channel 421].id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sportstars.png" group-title="Sport_Id",SPORTSTAR 4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b576e5f5f1bc4cbaa866e5b0face5a30:3377be6c3b5f688ebed687312c9b9d95
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-referrer=https://visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
 
 #EXTINF:0 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/soccer.png" group-title="Sport_Id", SOCCER CHANNEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4035323a7fe64767ab8f3345ed9b93be:67377b8d429603f8bf30c161bda269e5
-#EXTVLCOPT:http-referrer=https://visionplus.id
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/bein_id.png" group-title="Sport_Id",beIN Sports 1 
@@ -88,13 +92,15 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/ind
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
 
 #EXTINF:-1 tvg-id="SPOTV.id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/SportTv.png" group-title="Sport_Id",SPOTV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3197f7f5086c4315af2b7a94bc9201cb:17462a74739ae0d9855705ffc2c0e1b5
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://visionplus.id/
+#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/Vision/drm.license?id=119
+https://ayo.maling.pl/Vision/index.mpd?id=119
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/sport2.png" group-title="Sport_Id",SpoTV 2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/SportTv2.png" group-title="Sport_Id",SpoTV 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -191,8 +197,7 @@ http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-referrer=https://www.panentv.com/
 #EXTVLCOPT:http-origin=https://www.panentv.com/
-https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/mojito.m3u8
-
+http://cdn.nng.cloudns.us/live/m3u8/id/d4ff175b1e2d419.m3u8
 
 #EXTINF:-1 group-title="🏐 VOLLEYBALL" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/rtvs-sport.png",RTVS SPORT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -301,12 +306,23 @@ https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/cctv5.png" group-title="🏐 VOLLEYBALL",CCTV 5 
 http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
 
-
 ====================================================================SPORT_PLUS=====================================================================================
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/hisport.png" group-title="SPORT_PLUS", Hi-Fight
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-referrer=https://canal86.my.id/
+#EXTVLCOPT:http-origin=https://app.ambontv.my.id/
 https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/Hi-Fight.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/hisport.png" group-title="SPORT_PLUS", HI-Sport 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/hisport.png" group-title="SPORT_PLUS", HI-Sport
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-referrer=https://canal86.my.id/
+#EXTVLCOPT:http-origin=https://app.ambontv.my.id/
 https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/chiken.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.peterealty.com/tv_logos/cctv5.jpg" group-title="SPORT_PLUS",CCTV 5 
