@@ -7,20 +7,22 @@
 #KODIPROP:inputstream.adaptive.license_key=d386001215594043a8995db796ad9e9c:3404792cb4c804902acdc6ca65c1a298
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
 
-#EXTINF:-1 group-title="Indonesia Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/rcti.png",RCTI HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXT-X-TARGETDURATION:2
-#EXT-X-MEDIA-SEQUENCE:1
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-http://voodvooxqha.top:8080/VIP016741757787716566/e7e40ca602fa/34322
+#EXTINF:-1 tvg-id="RCTI.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/rcti.png" group-title="Indonesias Channel",RCTI (R+)
+#EXTVLCOPT:http-user-agent=android-R+ 
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
+http://beetv.my.id/stream/rctiplus.m3u8?ch=rcti
 
-#EXTINF:-1 tvg-id="MNCTV.id" tvg-name="MNCTV" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/mnctv.png" group-title="Indonesia Channels", MNCTV HD
+#EXTINF:-1 tvg-id="MNCTV.id" tvg-name="MNCTV" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/mnctv.png" group-title="Indonesias Channel", MNCTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c3004565365a42d08e3bde39a516d64e:dbfdc0967cfbbed01dba730c99d9c14a
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
+
+#EXTINF:-1 tvg-id="MNCTV.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/mnctv.png" group-title="Indonesias Channel",MNCTV (R+)
+#EXTVLCOPT:http-user-agent=android-R+ 
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
+http://beetv.my.id/stream/rctiplus.m3u8?ch=mnctv 
 
 #EXTINF:-1 tvg-id="GTV.id" tvg-name="GTV" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/gtv.png" group-title="Indonesia Channels", GTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
@@ -35,6 +37,10 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/in
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d2tjypxxy769fn.cloudfront.net/out/v1/e930be336fed49e6b26a7554e113f7a4/index.mpd
+
+#EXTINF:-1 group-title="Indonesia Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/indosiar.png", INDOSIAR (DG)
+http://202.169.224.202:8800/udp/239.9.1.25:1234
+
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=93d5b9f9d5d14f15b1ba9582f332d1fc:116e4014a662fef4ea5d7671dd5120d8
@@ -52,6 +58,9 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/in
 #EXTINF:-1  tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/transtv.png" group-title="Indonesia Channels", TRANS TV
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/transtv.png" group-title="Indonesia Channels",Trans TV (Detik.)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://video.detik.com/transtv-sec/smil:transtv.smil/chunklist_w706690092_b744100_sleng_tkd293emF0b2tlbnN0YXJ0dGltZT0wJndvd3phdG9rZW5lbmR0aW1lPTE3ODQyOTk3MTk1Njcmd293emF0b2tlbmhhc2g9ZWRwYWROM0F6dGVodEJjaHBLWERDeUZpeUpWNXJlUG1jdmphWHZDakdOQT0=.m3u8
 
 #EXTINF:-1 tvg-id="Trans7" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/trans7.png" group-title="Indonesia Channels",TRANS7
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
@@ -60,10 +69,22 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/in
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0
 https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/trnas7.png" group-title="Indonesia Channels",Trans 7 (Detik.)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://video.detik.com/trans7-sec/smil:trans7.smil/chunklist_w1651955774_b744100_sleng_tkd293emF0b2tlbnN0YXJ0dGltZT0wJndvd3phdG9rZW5lbmR0aW1lPTE3ODQyOTk1MDI1NTUmd293emF0b2tlbmhhc2g9MVdmSDF3U0NMVDgwSmppNklUMzRqWENLaHNhTU44WWF5LW5FTVhZNjM5bz0=.m3u8
+
+#EXTINF:-1 tvg-id="Trans7.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/trnas7.png" group-title="Indonesia Channels",Trans7 (Digital)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+http://202.169.224.202:8800/udp/239.4.1.2:1234
 
 #EXTINF:-1 tvg-id="TransTV-6" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/mdtv.png" group-title="Indonesia Channels",MDTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8
+
+#EXTINF:-1 group-title="Indonesia Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/mdtv.png", MDTV (trans)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://202.150.161.212:5000/live/channel31/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/rtv.png" group-title="Indonesia Channels",Rajawali TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
@@ -195,6 +216,10 @@ https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/tribuns.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 https://op-flashcon-digdayahd-1.dens.tv/h/h234/index.m3u8
 
+#EXTVLCOPT:http-referrer=https://www.indihometv.com/
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 tvg-id="Sindo.News.TV.id" tvg-name="" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sindo_news.png" group-title="BERITA_Channels",SINDONEWS
+https://cdnbal1.indihometv.com/atm/DASH/mncnews/mncnews-avc1_2500000=7-3277707030000000.mpd
 
 #EXTINF:-1 group-title="BERITA_Channels" tvg-id="" tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/indonesia.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/metro.png",Metro TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -207,9 +232,6 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
 #EXTINF:-1 tvg-id="CNNIndonesia.id@SD" group-title="BERITA_Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/cnn_indonesia.png",CNN Indonesia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/radartv.png" group-title="BERITA_Channels",RADAR TASIKMALAYA
-https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/dutatv.png" group-title="BERITA_Channels" ,DUTATV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
@@ -340,13 +362,6 @@ https://cdnbal1.indihometv.com/atm/DASH/hbosignature/hbosignature-avc1_2500000=7
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="Cinemax.id" tvg-name="Cinemax" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/cinemax.png" group-title="HBO_GROUP", CINEMAX  2
 https://cdnbal1.indihometv.com/atm/DASH/cinemax/cinemax-avc1_2500000=7-3277707030000000.mpd
-====================================================================================================
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/warner.jpg" group-title="HBO_GROUP" tvg-id="Warner.id" tvg-name="Warner TV", Warner TV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#EXTVLCOPT:http-referrer=https://www.firstmedia.com
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_key=71e96242146f479e84289c48b5dd08c2:4f9e73cfba9e047b2b6ee41d7d303f21
-https://atemecdnbalancer-voe.sysln.id/live/eds/WarnerHD/mediampd/WarnerHD.mpd
 
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.indihometv.com
@@ -356,14 +371,6 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/WarnerHD/mediampd/WarnerHD.mpd
 #EXTINF:-1 tvg-id="WarnerTVAsia.us@SD" group-title="HBO_GROUP" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/warner.png",Warner TV 2
 https://cdnbal1.indihometv.com/atm/DASH/warner/warner-avc1_2500000=7-3277707030000000.mpd
 ==============================================================================================================
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b1/HitsMoviesSID.png/revision/latest/scale-to-width-down/1200?cb=20250104103345" group-title="Movies", HITS MOVIES
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=07af9ce05d8f4960a1b9113e7fdb8e7e:12b66b374d9c804f7311cb6a8d421c8c
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/de93893d01e6446daaf052a7fec694fc/index.mpd
-
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=cfbae59795044563b5b9b4927a79a76e:ce57c9490bd772b390d78b9fedaf8d36
@@ -378,16 +385,6 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/751a0982779f4edd904205eb351e220d/in
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
 #EXTINF:-1 tvg-id="GalaxyPremium.id" tvg-name="Galaxy Premium" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/galaxy_premium.png" group-title="Movies", Galaxy Premium
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/45c0752c6b6b4397b80243ac9fed96fd/index.mpd
-
-
-#EXTINF:-1 group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvFUxiR72cGzS8an2yGNAQ9KHpwsCxmM0z_w9MbN1pd8U0QsSDpn6u6NH1vTp0GgmmvEg&usqp=CAU", STUDIO UNIVERSAL
-#EXTVLCOPT:http-user-agent=MPF_Players/537.36
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b4a7b3289eff493d8700becf2e2a1157:bfbcfcb8137dd565a7f4b5ce7800c1f0
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/dc63bd198bc44193b570e0567ff5b22c/index.mpd
-
 
 #EXTINF:-1 group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmlpww2MfJrgbOxT8plL2q1QljlPInWjL6GZCRgr8r2NxzXu9OFjhZX1M&s=10",Studio Universal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
@@ -485,19 +482,6 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/333a9658ed6a4424a92e319114fb7111/in
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=07af9ce05d8f4960a1b9113e7fdb8e7e:12b66b374d9c804f7311cb6a8d421c8c
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/de93893d01e6446daaf052a7fec694fc/index.mpd
-
-#EXTINF:-1 tvg-logo="https://cdn4.mbahnunungonline.net/img/4gNhVWH.png?v=1.1.1.1" group-title="Movies" tvg-id="Warner.id" tvg-name="Warner TV", Warner TV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#EXTVLCOPT:http-referrer=https://www.firstmedia.com
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_key=71e96242146f479e84289c48b5dd08c2:4f9e73cfba9e047b2b6ee41d7d303f21
-https://atemecdnbalancer-voe.sysln.id/live/eds/WarnerHD/mediampd/WarnerHD.mpd
-
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/XQvrxhl.png?v=1.1.1.1" group-title="Movies" tvg-id="Flik.id" tvg-name="Flik", Flik
-#EXTVLCOPT:http-referrer=https://www.panentv.com/
-#EXTVLCOPT:http-origin=https://www.panentv.com/
-#https://cdn1.panensport.org/channel/500165095/index.m3u8
-http://157.15.187.3:25092/hls/33/33.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/bioskop_indonesia.png" group-title="Movies" tvg-id="BioskopIndonesia.id" tvg-name="Bioskop Indonesia", Bioskop Indonesia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
