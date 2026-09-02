@@ -21,11 +21,10 @@ https://beetv.my.id/xstreamx/vd.m3u8?ch=indosiar
 
 #EXTINF:-1 tvg-id="indosiar.id" tvg-logo="https://i.imgur.com/UhfAhCS.jpeg" group-title="Indonesia Channels", indosiar
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-ALLOW-CACHE:NO
-#EXT-X-TARGETDURATION:4
-#EXT-X-MEDIA-SEQUENCE:9862
-#EXTINF:4,
+#EXTM3U
+#EXT-X-VERSION:7
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:BANDWIDTH=4160000,AVERAGE-BANDWIDTH=4160000,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2",FRAME-RATE=50.000
 https://cdnbal1.indihometv.com/atm/DASH/indosiar/indosiar-avc1_2500000=7-3277707030000000.mpd
 
 #EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sctv.png" group-title="Indonesia Channels",SCTV
@@ -42,11 +41,10 @@ http://tvratu.my.id/nissa/index.mpd?id=204&type=dash
 
 #EXTINF:-1  group-title="Indonesia Channels" tvg-logo="https://i.imgur.com/On1j2M9.png",TRANSTv
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-ALLOW-CACHE:NO
-#EXT-X-TARGETDURATION:4
-#EXT-X-MEDIA-SEQUENCE:9862
-#EXTINF:4,
+#EXTM3U
+#EXT-X-VERSION:7
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:BANDWIDTH=4160000,AVERAGE-BANDWIDTH=4160000,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2",FRAME-RATE=50.000
 https://livestream.transtv.co.id/stream/live/ttv.m3u8
 
 #EXTINF:-1 tvg-id="Trans7.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/trnas7.png" group-title="Indonesia Channels",TRANS7
