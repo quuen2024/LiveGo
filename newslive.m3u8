@@ -53,11 +53,12 @@ https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
 
 #EXTINF:-1 group-title="Indonesia Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/indosiar.png", INDOSIaR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/Indosiar.m3u8
 #EXT-X-TARGETDURATION:2
 #EXT-X-MEDIA-SEQUENCE:1
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
-https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/Indosiar.m3u8
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ0x0ZXFPbysvMVBvYjc1eXFMemc1a3UxOWR6NmYxUTllMi80N1IzM2tGWQ
 
 #EXTINF:-1 group-title="Nasional"  tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/indosiar.png" group-title="Indonesia Channels", INDOSIar
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
@@ -107,12 +108,13 @@ https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/sctv2.m3u8
 
 #EXTINF:-1  group-title="Indonesia Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/transtv.png",TRANSTv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+http://31.43.191.125:8080/VIP019201762490519102/18754640ce7b/34324
 #EXT-X-TARGETDURATION:2
 #EXT-X-MEDIA-SEQUENCE:1
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/transt2.m3u8
-https://video.detik.com/transtv-sec/smil:transtv.smil/chunklist_w363727320_b344100_sleng_tkd293emF0b2tlbnN0YXJ0dGltZT0wJndvd3phdG9rZW5lbmR0aW1lPTE3ODkwMTA4MTEyNzAmd293emF0b2tlbmhhc2g9Yjh3MEZPSDI4U1Z4WG5VY25WbWxiR1JkM1dUMzN4MFZrNElSTENaSWoydz0=.m3u8
+
 
 #EXTINF:-1 tvg-id="Trans7.id" tvg-name="" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/trans%207.png" group-title="Indonesia Channels", TRANS 7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
@@ -124,12 +126,13 @@ https://video.detik.com/transtv-sec/smil:transtv.smil/chunklist_w363727320_b3441
 
 #EXTINF:-1 tvg-id="Trans7.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/trans%207.png" group-title="Indonesia Channels",TRANS7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+http://31.43.191.125:8080/VIP019201762490519102/18754640ce7b/34325
 #EXT-X-TARGETDURATION:2
 #EXT-X-MEDIA-SEQUENCE:1
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/trans72.m3u8
-https://video.detik.com/trans7-sec/smil:trans7.smil/chunklist_w757508770_b544100_sleng_tkd293emF0b2tlbnN0YXJ0dGltZT0wJndvd3phdG9rZW5lbmR0aW1lPTE3ODkwMTA5ODY4MTEmd293emF0b2tlbmhhc2g9Sk0tS3FFNklLa2p0am1RRHlPSHB4X1E4eG5DMUJVQ0F2Mk10TEtrcGpHTT0=.m3u8
+
 
 #EXTINF:-1 tvg-id="TransTV-6" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/mdtv.png" group-title="Indonesia Channels",MDTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
