@@ -113,13 +113,13 @@ async function collectActiveLinks(urls, concurrency, fetchTimeout, linkCheckTime
     // Fetch all M3U playlists concurrently
     const fetchPromises = urls.map(url =>
         limit(async () => {
-            console.log(`Fetching M3U from ${url}...`);
+            console.log(`Fetching M3U from ${https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newslive.m3u8}...`);
             const m3uContent = await fetchM3U(url, fetchTimeout);
             if (!m3uContent) return [];
 
             console.log(`Parsing M3U from ${url}...`);
             const channels = parseM3U(m3uContent);
-            console.log(`Found ${channels.length} channels in ${url}`);
+            console.log(`Found ${channels.length} channels in ${https://raw.githubusercontent.com/quuen2024/LiveGo/refs/heads/queen/newslive.m3u8}`);
 
             // Add channels to the Map to remove duplicates early
             channels.forEach(channel => {
