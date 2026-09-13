@@ -73,25 +73,18 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/in
 
 =======================================
 
-#EXTINF:-1 tvg-id="119" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sporttv1.png" group-title="Sport_Id",SPOTV V+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/saya.suka?id=119&type=fitnah
+#EXTINF:-1 tvg-id="sporttv.id" tvg-name="SPORTTV" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/SportTv.png" group-title="Sport_Id", SPORT Tv 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Sport1.m3u8
 
 =======================================
-
-#EXTINF:-1 tvg-id="120" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sporttv2.png" group-title="Sport_Id",SPOTV2 V+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/saya.suka?id=120&type=fitnah
+#EXTINF:-1 tvg-id="sporttv.id" tvg-name="SPORTTV" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/SportTv2.png" group-title="Sport_Id", SPORT TV 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/sport2.m3u8
 
 =======================================
 
-#EXTINF:-1 tvg-id="" tvg-name="Voli TV" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/voli.jpg" group-title="VIP SPORTS (Match Only)",Voli TV
+#EXTINF:-1 tvg-id="" tvg-name="Voli TV" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/voli.jpg" group-title="Sport_Id",Voli TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/volitv.m3u8
 
