@@ -84,9 +84,6 @@ https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/sport2.m3u8
 
 =======================================
 
-#EXTINF:-1 tvg-id="" tvg-name="Voli TV" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/voli.jpg" group-title="Sport_Id",Voli TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/volitv.m3u8
 
 ==================================================
 
@@ -210,15 +207,13 @@ http://cdn.nng.cloudns.us/live/m3u8/id/d4ff175b1e2d419.m3u8
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 https://dash2.antik.sk/stream/nvidia_rtvs_sport/playlist_cenc.mpd
 
-#EXTINF:-1 group-title="🏐 VOLLEYBALL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8al6_TMwbTQLjV4T0FwsA1BDBUrPHKNFztc3M_EG2aQ&s=10", PROLIGA 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXT-X-TARGETDURATION:2
-#EXT-X-MEDIA-SEQUENCE:1
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-referrer=https://www.panentv.com/
-#EXTVLCOPT:http-origin=https://www.panentv.com/
-https://cdn1.panensport.org/channel/500298550/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Voli TV" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/voli.jpg" group-title="🏐 VOLLEYBALL",Voli TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/volitv.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="LIVE 1 (Volley Korea)" tvg-logo="https://ogietv.biz.id:443/images/QCqX5p5x3Y181Q8jwb82JDC_nwYedBPam7dNzWo31Bed1QXQ2imJfQHSnYxgd2Iy.jpg" group-title="LIVE (OnlyMatch)",LIVE 1 (Volley Korea)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/sbssport.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/vnl.png" group-title="🏐 VOLLEYBALL", VNL 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
