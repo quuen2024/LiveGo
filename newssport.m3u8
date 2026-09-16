@@ -92,7 +92,8 @@ https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/sport2.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://sweet-night-1d1d.worst.workers.dev/play?id=17139&type=drm
-#https://sweet-night-1d1d.worst.workers.dev/play.mpd?id=17139&type=dash
+https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
+
 
 =======================================
 
@@ -101,44 +102,22 @@ https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/sport2.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://sweet-night-1d1d.worst.workers.dev/play?id=17140&type=drm
-#https://sweet-night-1d1d.worst.workers.dev/play.mpd?id=17140&type=dash
+https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
 
 
 =======================================
 
-#EXTINF:0 tvg-id="123" tvg-logo="https://i.ibb.co.com/VYZLb1bv/BEIN2.png" group-title="Sport_Id",BEIN SPORT 2
+#EXTINF:-1 tvg-id="beinsports1.tr" tvg-name="BEIN Sports 1 HD" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/bein_id.png" group-title="Sport_Id",BEIN Sports 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/saya.suka?id=123&type=fitnah
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/beinid1.m3u8
 
 =======================================
 
-#EXTINF:0 tvg-id="124" tvg-logo="https://i.ibb.co.com/1fkSNsNm/BEIN3.png" group-title="Sport_Id",BEIN SPORT 3
+#EXTINF:-1 tvg-id="beinsports3.tr" tvg-name="BEIN Sports 1 HD" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/bein_id.png" group-title="Sport_Id",BEIN Sports 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/webclient/live
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/saya.suka?id=124&type=fitnah
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/beinid3.m3u8
 
 =======================================
-
-#EXTINF:-1 tvg-id="125" tvg-url="https://www.bevy.be/bevyfiles/singaporepremium.xml" group-title="Sport_Id" tvg-logo="https://i.ibb.co.com/s9tpBwd2/BEIN4.png", BEIN SPORT 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=aef1823177ad40199de440504d992ad5:b95c919408eec7663214a9a67af831ba
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd
-
-=======================================
-
-#EXTINF:-1 tvg-id="126" tvg-url="https://www.bevy.be/bevyfiles/singaporepremium.xml" group-title="Sport_Id" tvg-logo="https://i.ibb.co.com/SDDN3c3g/BEIN5.png", BEIN SPORT 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c48c8e48dba24420b5dcef9f5b847b12:daad0aeb165b9a26b706f2a261b8fafe
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
