@@ -82,21 +82,29 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/ind
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=121
 https://d2tjypxxy769fn.cloudfront.net/out/v1/73b7057c72da4615888a11b02a6cbb3c/index.mpd
 
-#EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/SportTv.png" group-title="Sports_id", SPORT TV 1
-#EXT-X-TARGETDURATION:2
-#EXT-X-MEDIA-SEQUENCE:1
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/spt1.m3u8
+#EXTINF:-1 tvg-id="sporttv.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/SportTv.png",SPOTV
+#EXTGRP:Sports_id
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=119
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
 
-#EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/SportTv2.png" group-title="Sports_id", SPORT TV 2
+#EXTINF:-1 tvg-id="sporttv.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/SportTv2.png",SPOTV 2
+#EXTGRP:Sports_id
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=120
+https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
+
+#EXTINF:-1 group-title="Sports_id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/TVRI-Sport-HD.png", TVRI SPORTS
+#EXTVLCOPT:http-user-agent=TVRIKLIK/7.0 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXT-X-TARGETDURATION:2
 #EXT-X-MEDIA-SEQUENCE:1
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/spt2.m3u8
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -120,49 +128,49 @@ https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/wjeweupwyc/
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/841.m3u8
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/bein1.m3u8
 #EXTINF:-1 tvg-id=beinspprtAr" tvg-name="BeinSport" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/beinspt.png" group-title="AR: BEIN SPORTS",AR: BEIN SPORTS 2
 #EXT-X-TARGETDURATION:2
 #EXT-X-MEDIA-SEQUENCE:1
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/842.m3u8
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/bein2.m3u8
 #EXTINF:-1 tvg-id=beinspprtAr" tvg-name="BeinSport" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/beinspt.png" group-title="AR: BEIN SPORTS",AR: BEIN SPORTS 3
 #EXT-X-TARGETDURATION:2
 #EXT-X-MEDIA-SEQUENCE:1
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/843.m3u8
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/bein3.m3u8
 #EXTINF:-1 tvg-id=beinspprtAr" tvg-name="BeinSport" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/beinspt.png" group-title="AR: BEIN SPORTS",AR: BEIN SPORTS 4
 #EXT-X-TARGETDURATION:2
 #EXT-X-MEDIA-SEQUENCE:1
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/844.m3u8
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/bein4.m3u8
 #EXTINF:-1 tvg-id=beinspprtAr" tvg-name="BeinSport" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/beinspt.png" group-title="AR: BEIN SPORTS",AR: BEIN SPORTS 5
 #EXT-X-TARGETDURATION:2
 #EXT-X-MEDIA-SEQUENCE:1
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/845.m3u8
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/bein5.m3u8
 #EXTINF:-1 tvg-id=beinspprtAr" tvg-name="BeinSport" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/beinspt.png" group-title="AR: BEIN SPORTS",AR: BEIN SPORTS 6
 #EXT-X-TARGETDURATION:2
 #EXT-X-MEDIA-SEQUENCE:1
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/846.m3u8
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/bein6.m3u8
 #EXTINF:-1 tvg-id=beinspprtAr" tvg-name="BeinSport" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/beinspt.png" group-title="AR: BEIN SPORTS",AR: BEIN SPORTS 7
 #EXT-X-TARGETDURATION:2
 #EXT-X-MEDIA-SEQUENCE:1
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/847.m3u8
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/bein7.m3u8
 #EXTINF:-1 tvg-id=beinspprtAr" tvg-name="BeinSport" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/beinspt.png" group-title="AR: BEIN SPORTS",AR: BEIN SPORTS PREMIUM 1
 #EXT-X-TARGETDURATION:2
 #EXT-X-MEDIA-SEQUENCE:1
@@ -287,6 +295,95 @@ http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/872.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/873.m3u8
+------------------------------------------------------TSN-------------------------------------------------------------------------------------
+#EXTINF:-1 tvg-id="TSN1.ca" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/tsn.png" group-title="TSN_SPORT",TSN 1
+#EXTVLCOPT:network-caching=900000
+#EXTVLCOPT:deinterlace=1
+#EXTVLCOPT:deinterlace-mode=linear
+#EXTVLCOPT:avcodec-hw=any
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=true
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
+
+#EXTINF:-1 tvg-id="TSN2.ca" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/tsn.png" group-title="TSN_SPORT",TSN 2
+#EXTVLCOPT:network-caching=900000
+#EXTVLCOPT:deinterlace=1
+#EXTVLCOPT:deinterlace-mode=linear
+#EXTVLCOPT:avcodec-hw=any
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=true
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd
+
+#EXTINF:-1 tvg-id="TSN3.ca" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/tsn.png" group-title="TSN_SPORT",TSN 3
+#EXTVLCOPT:network-caching=900000
+#EXTVLCOPT:deinterlace=1
+#EXTVLCOPT:deinterlace-mode=linear
+#EXTVLCOPT:avcodec-hw=any
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=true
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd
+
+#EXTINF:-1 tvg-id="TSN4.ca" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/tsn.png" group-title="TSN_SPORT",TSN 4
+#EXTVLCOPT:network-caching=900000
+#EXTVLCOPT:deinterlace=1
+#EXTVLCOPT:deinterlace-mode=linear
+#EXTVLCOPT:avcodec-hw=any
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=true
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
+
+#EXTINF:-1 tvg-id="TSN5.ca" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/tsn.png" group-title="TSN_SPORT",TSN 5
+#EXTVLCOPT:network-caching=900000
+#EXTVLCOPT:deinterlace=1
+#EXTVLCOPT:deinterlace-mode=linear
+#EXTVLCOPT:avcodec-hw=any
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=true
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd
+=======================================================TNT SPORT===========================================================================
+#EXTINF:-1 tvg-id="TNT.Sports.1.HD.uk" group-title="TNT_Sports" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/TNT_Sports.png",TNT Sports 1
+EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
+
+#EXTINF:-1 tvg-id="TNT.Sports.2.HD.uk" group-title="TNT_Sports" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/TNT_Sports.png",TNT Sports 2
+EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
+
+#EXTINF:-1 tvg-id="TNT.Sports.3.HD.uk" group-title="TNT_Sports" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/TNT_Sports.png",TNT Sports 3
+EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
+
+#EXTINF:-1 tvg-id="TNT.Sports.4.HD.uk" group-title="TNT_Sports" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/TNT_Sports.png",TNT Sports 4
+EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/bahrain.png" group-title="🏐 VOLLEYBALL",BAHRAIN SPORTS 1 🇧🇭
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -429,6 +526,11 @@ https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/Hi-Fight.m3u8
 #EXTVLCOPT:http-referrer=https://canal86.my.id/
 #EXTVLCOPT:http-origin=https://app.ambontv.my.id/
 https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/chiken.m3u8
+
+#EXTINF:-1 tvg-id="Mono.29.th" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/MONOMAX_Sports_2026.svg/500px-MONOMAX_Sports_2026.svg.png" group-title="SPORT_PLUS",MONO29 Sports Thailand
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=96a14b36335645b391bbbb48c424fec7:e6971b27837a4822832d8215156bb516
+https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd
 
 #EXTINF:-1 tvg-logo="http://www.peterealty.com/tv_logos/cctv5.jpg" group-title="SPORT_PLUS",CCTV 5 
 http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
