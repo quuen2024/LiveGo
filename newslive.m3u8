@@ -100,11 +100,7 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h16/index.m3u8
 #https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd
 
 #EXTINF:-1 group-title="Indonesia Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/jowo_tv.png",JOWO TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXT-X-TARGETDURATION:2
-#EXT-X-MEDIA-SEQUENCE:1
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://op-flashcon-digdayasd-1.dens.tv/h/h215/stream.m3u8
 
 #EXTINF:-1 group-title="Indonesia Channels" tvg-id="imtv.id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/lingkartv.png",LINGKAR TV
