@@ -7,10 +7,7 @@
 https://rctiplus123.mikrofast.my.id/rctiplus/rcti/redirect.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/rcti.png" group-title="Indonesia Channels", RCTI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=1&type=drm&token=apistech
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/rcti.m3u8
 
 #EXTINF:-1 tvg-id="MNCTV.id" tvg-name="MNCTV" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/mnctvplus.png" group-title="Indonesia Channels", MNCTV+
@@ -20,10 +17,7 @@ https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/rcti.m3u8
 https://rctiplus123.mikrofast.my.id/rctiplus/mnctv/redirect.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/mnctv.png" group-title="Indonesia Channels", MNCTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=2&type=drm&token=apistech
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/mnctv.m3u8
 
 #EXTINF:-1 tvg-id="GTV.id" tvg-name="GTV" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/gtvplus.png" group-title="Indonesia Channels", GTV+
@@ -32,10 +26,7 @@ https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/mnctv.m3u8
 https://rctiplus123.mikrofast.my.id/rctiplus/gtv/redirect.m3u8
 
 #EXTINF:-1 tvg-id="GTV.id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/gtv.png" group-title="Indonesia Channels", GTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=3&type=drm&token=apistech
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/gtv.m3u8
 
 #EXTINF:-1 tvg-id="Indosiar - [Channel 78].id" tvg-name="Indosiar" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/indosiarplus.png" group-title="Indonesia Channels",INDOSIAR VID
@@ -46,10 +37,7 @@ https://vidio123.mikrofast.web.id/vidio/205/index.mpd
 
 #EXTINF:-1 tvg-id="Indosiar - [Channel 78].id" tvg-name="Indosiar" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/indosiar.png",INDOSIAR
 #EXTGRP:Indonesia Channels
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/indosiar.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sctv.png" group-title="Indonesia Channels" ,SCTV VID
@@ -60,10 +48,7 @@ https://vidio123.mikrofast.web.id/vidio/204/index.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sctv.png",SCTV 
 #EXTGRP:Indonesia Channels
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/sctv.m3u8
 
 #EXTINF:0 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/transtv.png" group-title="Indonesia Channels",TransTV 
@@ -90,10 +75,7 @@ https://vidio123.mikrofast.web.id/vidio/782/index.mpd
 
 #EXTINF:-1 tvg-id="ANTV.id tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/antv.png",ANTV 
 #EXTGRP:Indonesia Channels
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=10
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/antv.m3u8
 
 #EXTINF:-1 tvg-id="TransTV-6" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/mdtv.png" group-title="Indonesia Channels",MDTV HD
