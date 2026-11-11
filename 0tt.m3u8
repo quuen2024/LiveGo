@@ -18,11 +18,14 @@ https://rctiplus123.mikrofast.my.id/rctiplus/mnctv/redirect.m3u8
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=2&type=drm&token=apistech
+#EXT-X-STREAM-INF:BANDWIDTH=3835481,FRAME-RATE=25.000,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1920x1080
+http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/34326.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/mnctv.png" group-title="Indonesia Channels", MNCTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-#EXTM3U
-#EXT-X-VERSION:3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=2&type=drm&token=apistech
 #EXT-X-STREAM-INF:BANDWIDTH=3835481,FRAME-RATE=25.000,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1920x1080
 http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/34326.m3u8
 
@@ -32,9 +35,10 @@ http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/34326.m3u8
 https://rctiplus123.mikrofast.my.id/rctiplus/gtv/redirect.m3u8
 
 #EXTINF:-1 tvg-id="GTV.id" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/gtv.png" group-title="Indonesia Channels", GTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTM3U
-#EXT-X-VERSION:3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=3&type=drm&token=apistech
 #EXT-X-STREAM-INF:BANDWIDTH=3835481,FRAME-RATE=25.000,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1920x1080
 http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/34331.m3u8
 
@@ -47,10 +51,9 @@ https://vidio123.mikrofast.web.id/vidio/205/index.mpd
 #EXTINF:-1 tvg-id="Indosiar - [Channel 78].id" tvg-name="Indosiar" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/indosiar.png",INDOSIAR
 #EXTGRP:Indonesia Channels
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=3835481,FRAME-RATE=25.000,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1920x1080
-http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/34327.m3u8
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=9
 #EXT-X-STREAM-INF:BANDWIDTH=3835481,FRAME-RATE=25.000,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1920x1080
 http://spmid.pw:80/play/GilYnrCW_MM0O4y8RxRw4tvU9DgkJZwbob7tWGGp3Yw
 
@@ -59,6 +62,15 @@ http://spmid.pw:80/play/GilYnrCW_MM0O4y8RxRw4tvU9DgkJZwbob7tWGGp3Yw
 #EXTVLCOPT:http-origin=https://m.vidio.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
 https://vidio123.mikrofast.web.id/vidio/204/index.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sctv.png",SCTV 
+#EXTGRP:Indonesia Channels
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=8
+#EXT-X-STREAM-INF:BANDWIDTH=3835481,FRAME-RATE=25.000,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1920x1080
+http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/34323.m3u8
 
 #EXTINF:0 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/transtv.png" group-title="Indonesia Channels",TransTV 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
