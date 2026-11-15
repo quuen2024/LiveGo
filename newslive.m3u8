@@ -13,8 +13,7 @@ https://rctiplus123.mikrofast.my.id/rctiplus/rcti/redirect.m3u8
 https://proxy-v.rctiplus.id/live/web/rcti/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/rcti.png" group-title="Indonesia Channels", RCTI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/rcti.m3u8
+http://royaltv.world:25461/live/S1048/9886/101.ts
 
 #EXTINF:-1 tvg-id="MNCTV.id" tvg-name="MNCTV" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo2/refs/heads/queen/mnctvplus.png" group-title="Indonesia Channels", MNCTV+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
@@ -43,8 +42,7 @@ https://vidio123.mikrofast.web.id/vidio/205/index.mpd
 
 #EXTINF:-1 tvg-id="Indosiar - [Channel 78].id" tvg-name="Indosiar" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/indosiar.png",INDOSIAR
 #EXTGRP:Indonesia Channels
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/indosiar.m3u8
+http://royaltv.world:25461/live/S1048/9886/105.ts
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sctv.png" group-title="Indonesia Channels" ,SCTV VID
 #EXTVLCOPT:http-referrer=https://m.vidio.com/
@@ -54,8 +52,7 @@ https://vidio123.mikrofast.web.id/vidio/204/index.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sctv.png",SCTV 
 #EXTGRP:Indonesia Channels
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/sctv.m3u8
+http://royaltv.world:25461/live/S1048/9886/101.ts
 
 #EXTINF:0 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/transtv.png" group-title="Indonesia Channels",TransTV 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
@@ -81,8 +78,7 @@ https://vidio123.mikrofast.web.id/vidio/782/index.mpd
 
 #EXTINF:-1 tvg-id="ANTV.id tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/antv.png",ANTV 
 #EXTGRP:Indonesia Channels
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/antv.m3u8
+http://royaltv.world:25461/live/S1048/9886/106.ts
 
 #EXTINF:-1 tvg-id="TransTV-6" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/mdtv.png" group-title="Indonesia Channels",MDTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
@@ -174,6 +170,9 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://proxy-v.rctiplus.id/live/web/inews/index.m3u8
 
+#EXTINF:-1 tvg-id="iNews.id@SD" group-title="BERITA_Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/inews.png",iNews SPORT
+http://royaltv.world:25461/live/S1048/9886/99.ts
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/kompastv.png" group-title="BERITA_Channels", KOMPAS TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
 https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
@@ -210,12 +209,7 @@ https://jambitv.globaldigitalcore.com/hls/sah5tu7Eiveepohyieyie3OoteL2anga.m3u8
 https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w1279679883_b384000_sleng.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/GarudaTv.png" group-title="BERITA_Channels",Garuda TV
-#EXT-X-TARGETDURATION:2
-#EXT-X-MEDIA-SEQUENCE:1
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/garudatv.m3u8
+http://royaltv.world:25461/live/G5016/7865/129.ts
 
 #EXTINF:-1 tvg-id="19046.Vidio" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/sin-po-tv.png" group-title="BERITA_Channels",Sinpo TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
@@ -235,12 +229,6 @@ https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://proxy-v.rctiplus.id/live/web/sindonews/index.m3u8
 
-#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/IDXChannel.png" group-title="BERITA_Channels", IDX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=134&type=drm&token=apistech
-https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd
 #EXTINF:-1 tvg-id="IDXChannel.id@SD" group-title="BERITA_Channels" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/IDXChannel.png",IDX Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
@@ -317,45 +305,41 @@ https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/starlaparahyan
 -------------------------------------------------------------------------------------------------------
 
 #EXTINF:-1 group-title="HBO_GROUP" tvg-id="hbofamilyasia.sg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo2.jpg",HBO 
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1835481,FRAME-RATE=25.000,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1920x1080
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://202.150.165.66:8088/play/100-HBO/index.m3u8
+http://royaltv.world:25461/live/G5016/7865/197.ts
 
-#EXTINF:-1 group-title="HBO_GROUP" tvg-id="hbofamilyasia.sg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_family.png",HBO Family 2
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1835481,FRAME-RATE=25.000,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1920x1080
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://202.150.165.66:8088/play/103-HBOFamily/index.m3u8
+#EXTINF:-1 group-title="HBO_GROUP" tvg-id="hbofamilyasia.sg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_family.png",HBO Family 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+http://31.43.191.125:8080/VIP012161760275967100/195205e7df12/34348
 
-#EXTINF:-1 tvg-id="hbohitsasia" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_hits.png" group-title="HBO_GROUP", HBO Hits 2
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1835481,FRAME-RATE=25.000,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1920x1080
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://202.150.165.66:8088/play/102-HBOHits/index.m3u8
+#EXTINF:-1 tvg-id="hbohitsasia" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_hits.png" group-title="HBO_GROUP", HBO Hits 
+http://royaltv.world:25461/live/G5016/7865/203.ts
 
-#EXTINF:-1 group-title="HBO_GROUP" tvg-id="hbosignatureasia.sg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_sign.png",HBO Signature 2
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1835481,FRAME-RATE=25.000,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1920x1080
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://202.150.165.66:8088/play/101-HBOSignature/index.m3u8
+#EXTINF:-1 group-title="HBO_GROUP" tvg-id="hbosignatureasia.sg" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/hbo_sign.png",HBO Signature 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+http://31.43.191.125:8080/VIP012161760275967100/195205e7df12/34431
 
-#EXTINF:-1 tvg-id="Cinemax.id" tvg-name="Cinemax" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/cinemax.png" group-title="HBO_GROUP", CINEMAX  2
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1835481,FRAME-RATE=25.000,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1920x1080
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/quuen2024/m3u8/refs/heads/queen/cinemax.m3u8
+#EXTINF:-1 tvg-id="Cinemax.id" tvg-name="Cinemax" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/cinemax.png" group-title="HBO_GROUP", CINEMAX  
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+http://31.43.191.125:8080/VIP012161760275967100/195205e7df12/34355
 
 #EXTINF:-1 tvg-id="WarnerTVAsia.us@SD" group-title="HBO_GROUP" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/warner.png",Warner TV 2
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1835481,FRAME-RATE=25.000,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1920x1080
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/warner.m3u8
 ==============================================Movies================================================================
 #EXTINF:-1 tvg-id="CelestialClassicMovies.id@SD" group-title="Movies" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/ccm.png",CCM
