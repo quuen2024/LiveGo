@@ -59,12 +59,9 @@ https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event6.m3u8
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event7.m3u8
 
 #EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID:RCTI LIVE
-#EXT-X-TARGETDURATION:2
-#EXT-X-MEDIA-SEQUENCE:1
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/rcti.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+https://proxy-v.rctiplus.id/live/web/rcti/index.m3u8
 
 #EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID:SCTV LIVE
 #EXT-X-TARGETDURATION:2
@@ -75,12 +72,14 @@ https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/rcti.m3u8
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/sctv.m3u8
 
 #EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID:GTV LIVE
-#EXT-X-TARGETDURATION:2
-#EXT-X-MEDIA-SEQUENCE:1
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/gtv.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+https://proxy-v.rctiplus.id/live/web/gtv/index.m3u8
+
+#EXTINF:-1 tvg-id="ANTV tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event", ANTV 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+https://proxy-v.rctiplus.id/live/web/antv/index.m3u8
 
 #EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID:INDOSIAR LIVE
 #EXT-X-TARGETDURATION:5
