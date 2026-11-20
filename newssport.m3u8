@@ -90,6 +90,94 @@ https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event10.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event11.m3u8
 
+#EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID: Live Event 12
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event12.m3u8
+
+#EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID: Live Event 13
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event13.m3u8
+
+#EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID: Live Event 14
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event14.m3u8
+
+#EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID: Live Event 15
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event15.m3u8
+
+#EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID: Live Event 16
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event16.m3u8
+
+#EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID: Live Event 17
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event17.m3u8
+
+#EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID: Live Event 18
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event18.m3u8
+
+#EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID: Live Event 19
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event19.m3u8
+
+#EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID: Live Event 20
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event20.m3u8
+
+#EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID: Live Event 21
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event21.m3u8
+
+#EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID: Live Event 22
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/quuen2024/life/refs/heads/queen/Event22.m3u8
+
 #EXTINF:-1 tvg-id=liveevent" tvg-name="live" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/livestream.png" group-title="Live_Event",ID:RCTI LIVE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -758,7 +846,14 @@ http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/156697.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
 https://a-cdn.klowdtv.com/live2/fight_720p/chunks.m3u8
 #EXTINF:-1 group-title="Wrestling"tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/tna.png",FIGHT NETWORK
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-TARGETDURATION:13
+#EXTINF:12.880000,
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+http://49.0.64.96:8007/TOPFIGHT
 http://31.43.191.125:8080/live/vip6821768502490/6c17bae55394/144533.m3u8
 ===================================================================FISHING=================================================================================
 #EXTINF:-1 tvg-id="" tvg-name="Wired 2 Fish" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo/refs/heads/queen/fishing.png" group-title="🎣MANCING MANIA",Wired 2 Fish
